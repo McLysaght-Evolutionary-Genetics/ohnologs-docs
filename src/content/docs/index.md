@@ -16,3 +16,56 @@ Congrats on setting up a new Starlight project!
 - Edit your `sidebar` and other config in `astro.config.mjs`.
 
 - Learn more in [the Starlight Docs](https://starlight.astro.build/).
+sunshine
+
+keyboard
+
+title: testing 
+
+**mouse*
+
+_slanted_
+
+~~ruling out~~
+### Warning
+
+:::info
+
+> watch out
+
+---
+### Table 1
+
+
+
+1. one
+2. two
+3. three
+
+
+| organism type| name         | 
+| :------------| :------------| 
+| plant        | sunflower    | 
+| animal       | dog          | 
+
+
+figure 1. a small example of what plants and animals are
+
+
+### Table 2
+| types of plants| example| 
+|:---------------| :------| 
+ monocots        |tulips  | 
+| dicots         | tomato | 
+
+
+:::note
+
+https://www.gardeningknowhow.com/ornamental/trees/tgen/hardwood-tree-information.htm 
+
+> some information on trees :)
+
+
+
+
+
