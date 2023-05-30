@@ -1,0 +1,19 @@
+---
+title: Circos Guide
+description: Get started building your docs site with Starlight.
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<h5>This is a guide for the circos part of the website:<h5>
+
+</head>
+
+<ul>
+<li>Circos plots are visual representations of various genomic data</li>
+</ul>
+
+<info>test</info>
+
+
