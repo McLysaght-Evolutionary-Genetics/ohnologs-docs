@@ -29,13 +29,13 @@ description: Get started building your docs site with Starlight.
 <p>The points below explain what each header refers to,</p>
 
 <ul>
-<li><b>Genome:</b>   Name of the genome</li>
-<li><b>Protein:</b>   Name of the protein</li>
+<li><b>Genome:</b>     Name of the genome</li>
+<li><b>Protein:</b>    Name of the protein</li>
 <li><b>Species:</b>    Name of the species</li>
 <li><b>State:</b>      The genome will either be ancient or present day</li>
 <li><b>Source:</b>     Where the data came from</li>
 <li><b>Version:</b>    What version the data is from Ensembl, RefSeq or other</li>
-<li><b>caffolds:</b>  This is the joining of a genomic sequence's non-contiguous series</li>
+<li><b>caffolds:</b>   This is the joining of a genomic sequence's non-contiguous series</li>
 <li><b>Genes:</b>      Name of the gene/Number of genes in the genome</li>
 <li><b>Segments:</b>   How many segments are there in the genome</li>
 </ul>
