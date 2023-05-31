@@ -10,7 +10,7 @@ description: Get started building your docs site with Starlight.
 <u><h4>Introduction To our Website</h4></u>
 <p>Our website was created in response to a general lack of accessible ohnolog datasets as well as visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of the website is that users are able to freely download all the data available.</p>
 
-<p>On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. This allows you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to access to more data than what is provided on the website.</p>
+<p>On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. This allows you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to access to more data than what is provided on our website.</p>
 
 <p>Below are some key definitons that are useful to know when using the website,</p>
 <ul>
