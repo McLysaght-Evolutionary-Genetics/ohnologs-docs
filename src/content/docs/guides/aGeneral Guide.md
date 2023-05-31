@@ -13,24 +13,37 @@ description: Get started building your docs site with Starlight.
 
 <p>Below are some key definitons that are useful to know when using the website,</p>
 <ul>
-<li>Whole Genome Duplication (WGD): An event in which an extra copy, or copies in some cases, of the genome of an organism is made</li>
-<li>Ohnologs: Genes that arise from WGD events</li>
-<li>Synteny: Two or more genes being on the same chromosome in a particular species</li>
-<li>Microsynteny: A type of synteny in which only a small number of genes are conserved</li>
-<li>Circos Plot: A visual representation of genomic data</li>
+<li><b>Whole Genome Duplication (WGD):</b>  An event in which an extra copy, or copies in some cases, of the genome of an organism is made</li>
+<li><b>Ohnologs:</b> Genes that arise from WGD events</li>
+<li><b>Synteny:</b>  Two or more genes being on the same chromosome in a particular species</li>
+<li><b>Microsynteny:</b>  A type of synteny in which only a small number of genes are conserved</li>
+<li><b>Circos Plot:</b> A visual representation of genomic data</li>
 </ul>
 
 <h4><p><u>Tables</h4></p></u>
-<p>Tables can be found at the bottom of most sections of the website. Not all tables have the exact same headings, The table below shows all the headings that may be seen on the website.<p>
+<p>The majority of the website's sections end with tables. Not all tables have exactly the same headers; the following table lists all possible headings on the website.<p>
 
 
-| Genome | Protein |Species | State | Source | Version | Scaffolds | Sections | Genes |
+| Genome | Protein |Species | State | Source | Version | Scaffolds | Genes |Segments|
+
+<p>The points below explain what each header refers to,</p>
+
+<ul>
+<li><b>Genome:</b>   Name of the genome</li>
+<li><b>Protein:</b>   Name of the protein</li>
+<li><b>Species:</b>    Name of the species</li>
+<li><b>State:</b>      The genome will either be ancient or present day</li>
+<li><b>Source:</b>     Where the data came from</li>
+<li><b>Version:</b>    What version the data is from Ensembl, RefSeq or other</li>
+<li><b>caffolds:</b>  This is the joining of a genomic sequence's non-contiguous series</li>
+<li><b>Genes:</b>      Name of the gene/Number of genes in the genome</li>
+<li><b>Segments:</b>   How many segments are there in the genome</li>
+</ul>
 
 
 <p>
-All the data from the website is public and you can freely download all the data or just select specific genes. In order in to do this you will need to locate table that contains the data you are interested in. To select all the data you need to select the first box on your table, it is located to the left hand side of the first table heading, either gene or genome depending on what section of the website you are on. Once selected, the top of the table will have a blue rectangle and button to download data will be located on the right hand side of the rectangle.
+The website's data is completely accessible to the public, and you are free to download it all or only choose particular genes. You must first find the table that contains the data you are looking for in order to do this. In general, you will first need to select some options in the boxes at the top of the page that has the necessary table. This refines your search to find what you are specifically looking for.  However, there are two choices available to you if you are on the website's Species page.The first box besides the header "Genome" on the table must be selected in order to select all of the data. Next, click the download button that will appear on the upper right corner of the table. Use the search bar to find the desired genes, then click the box to the left of each gene's name to only choose those genes.
 
-To only download specific genes or genomes, you will need to locate table that contains the data you are interested in. Now, you will need to select the boxes next to the gene or genome of choice. Note that there may be many pages of data in some tables so it may be useful to you to manually search for the gene or genome using the search bar in those cases. However, not all tables allow you to do this and you may need to select the boxes at the top of the website section you are on to refine your search. Once selected, the top of the table will have a blue rectangle and button to download data will be located on the right hand side of the rectangle.
 </p>
 
 
@@ -39,9 +52,9 @@ One of the tools available on the website is Global Selection. This means that w
 
 <h4><p><u>Databases, Internal Links and External Links</u></p></h4>
 
-In the tables on our website there is a 'source' section, this leads to external links. These external links lead to digital databases for you to explore as the website only has a small selection of the genes and genomes available.You can use the data on the external databases to further learn or research what you are interested in. The external databases are Ensembl, RefSeq and other.
+On our website, the tables have a "source" component that leads you to outside websites. Since the website only has a limited number of genes and genomes available, these external links take you to digital databases where you can explore more information. The information on the external databases might be used to help you learn more or conduct research on a topic of interest. Ensembl, RefSeq, and other external datasets are included.
 
-In the the table on the Gene section, there is a 'protein' heading. There you will be able to see two blue  icons, these are internal links that will take you to a place within our website. These lead you to parts of the website once you have selcted genes. The icon to the left will lead you to the Tree section and the icon to the right will lead you to the Synteny section.
+'Protein' is a heading in the table under the Gene section of our website. Two blue icons can be found there; these are internal links that will direct you to a location on our website. Once you have chosen your genes, these direct you to certain areas of the website. You can access the Tree section part by clicking the icon to the left, and the Synteny section by clicking the icon to the right.
 
 </head>
 </html>
