@@ -6,10 +6,11 @@ description: Get started building your docs site with Starlight.
 <html>
 <head>
 
-<h5>This is a guide for the BLAST section of the website</h5>
+<ul>
+<li><h5>This is a guide for the BLAST section of the website</h5></li>
+</ul>
 
-</head>
-
+<h4><p><u>What is BLAST?</u><p></h4>
 <ul>
 <li>BLAST stands for Basic Local Asignment Tool
 <li>BLAST is used for
@@ -17,4 +18,5 @@ description: Get started building your docs site with Starlight.
 <li>The sequences on the website are
 </ul>
 
+</head>
 </html>
