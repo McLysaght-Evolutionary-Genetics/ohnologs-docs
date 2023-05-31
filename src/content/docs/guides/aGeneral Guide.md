@@ -8,7 +8,7 @@ description: Get started building your docs site with Starlight.
 
 
 <u><h4>Introduction To our Website</h4></u>
-<p>Our website was created in response to a general lack of accessible ohnolog datasets as well as visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of the website is that users are able to freely download all the data available.</p>
+<p>Our website was created in response to a general lack of accessible ohnolog datasets as well as visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of the website is that users are able to freely download all of the data available.</p>
 
 <p>On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. This allows you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to access to more data than what is provided on our website.</p>
 
@@ -44,7 +44,6 @@ description: Get started building your docs site with Starlight.
 
 <p>
 The data on the website is completely accessible to the public, and you are free to download it all or simply choose particular genes. You must first find the table that contains the data you are looking for in order to do this. In general, you will first need to select some options in the boxes at the top of the page that has the necessary table. This refines your search to find what you are specifically looking for.  However, there are two choices available to you if you are on the website's Species page.The first box besides the header "Genome" on the table must be selected in order to select all of the data. Next, click the download button that will appear on the upper right corner of the table. Use the search bar to find the desired genes, then click the box to the left of each gene's name to only choose those genes.
-
 </p>
 
 
