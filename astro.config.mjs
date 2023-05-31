@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  base: "/ohnologs/docs",
+  trailingSlash: "never",
   integrations: [
     starlight({
       title: 'My Docs',
