@@ -26,7 +26,7 @@ description: Get started building your docs site with Starlight.
 
 | Genome | Protein |Species | State | Source | Version | Scaffolds | Genes |Segments|
 
-<p>The points below explain what each header refers to,</p>
+<p>The points below explain what each header refers to, </p>
 
 <ul>
 <li><b>Genome:</b>     Name of the genome</li>
