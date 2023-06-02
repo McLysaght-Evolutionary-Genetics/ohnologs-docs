@@ -1,5 +1,5 @@
 ---
-title: Species Guide
+title: Species 
 description: Get started building your docs site with Starlight.
 ---
 
