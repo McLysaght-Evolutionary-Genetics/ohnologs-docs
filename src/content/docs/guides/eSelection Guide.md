@@ -1,5 +1,5 @@
 ---
-title: Selection Guide
+title: Selection 
 description: Get started building your docs site with Starlight.
 ---
 <!DOCTYPE html>
