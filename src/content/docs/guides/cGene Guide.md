@@ -1,5 +1,5 @@
 ---
-title: Gene Guide
+title: Gene 
 description: Get started building your docs site with Starlight.
 ---
 <!DOCTYPE html>
