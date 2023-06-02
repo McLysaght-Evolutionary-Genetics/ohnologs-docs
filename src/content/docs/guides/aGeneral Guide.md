@@ -1,5 +1,5 @@
 ---
-title: General Guide
+title: General 
 description: Get started building your docs site with Starlight.
 ---
 <!DOCTYPE html>
@@ -11,12 +11,13 @@ description: Get started building your docs site with Starlight.
 <p>On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. This allows you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to access to more data than what is provided on our website.</p>
 
 <p>Below are some key definitons that are useful to know when using the website,</p>
+
 <ul>
 <li><b>Whole Genome Duplication (WGD):</b>  An event in which an extra copy, or copies in some cases, of the genome of an organism is made</li>
-<li><b>Ohnologs:</b> Genes that arise from WGD events</li>
-<li><b>Synteny:</b>  Two or more genes being on the same chromosome in a particular species</li>
+<li><b>Ohnologs:</b>      Genes that arise from WGD events</li>
+<li><b>Synteny:</b>       Two or more genes being on the same chromosome in a particular species</li>
 <li><b>Microsynteny:</b>  A type of synteny in which only a small number of genes are conserved</li>
-<li><b>Circos Plot:</b> A visual representation of genomic data</li>
+<li><b>Circos Plot:</b>   A visual representation of genomic data</li>
 </ul>
 
 <h4><p><u>Tables</h4></p></u>
