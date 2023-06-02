@@ -1,5 +1,5 @@
 ---
-title: BLAST Guide
+title: BLAST 
 description: Get started building your docs site with Starlight.
 ---
 <!DOCTYPE html>
