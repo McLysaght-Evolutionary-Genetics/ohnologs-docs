@@ -5,8 +5,6 @@ description: Get started building your docs site with Starlight.
 <!DOCTYPE html>
 <html>
 <head>
-
-
 <u><h4>Introduction To our Website</h4></u>
 <p>Our website was created in response to a general lack of accessible ohnolog datasets as well as visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of the website is that users are able to freely download all of the data available.</p>
 
@@ -33,10 +31,10 @@ description: Get started building your docs site with Starlight.
 <li><b>Genome:</b>     Name of the genome</li>
 <li><b>Protein:</b>    Name of the protein</li>
 <li><b>Species:</b>    Name of the species</li>
-<li><b>State:</b>      The genome will either be ancient or present day</li>
+<li><b>State:</b>      The genome will either be present, a modern genome, or other, an ancient genome</li>
 <li><b>Source:</b>     Where the data came from</li>
 <li><b>Version:</b>    What version the data is from Ensembl, RefSeq or other</li>
-<li><b>caffolds:</b>   This is the joining of a genomic sequence's non-contiguous series</li>
+<li><b>Scaffolds:</b>   This is the joining of a genomic sequence's non-contiguous series</li>
 <li><b>Genes:</b>      Name of the gene/Number of genes in the genome</li>
 <li><b>Segments:</b>   How many segments are there in the genome</li>
 </ul>
@@ -52,9 +50,7 @@ One of the tools available on the website is Global Selection. This means that w
 
 <h4><p><u>Databases, Internal Links and External Links</u></p></h4>
 
-On our website, the tables have a "source" component that leads you to outside websites. Since the website only has a limited number of genes and genomes available, these external links take you to digital databases where you can explore more information. The information on the external databases might be used to help you learn more or conduct research on a topic of interest. Ensembl, RefSeq, and other external datasets are included.
-
-'Protein' is a heading in the table under the Gene section of our website. Two blue icons can be found there; these are internal links that will direct you to a location on our website. Once you have chosen your genes, these direct you to certain areas of the website. You can access the Tree section part by clicking the icon to the left, and the Synteny section by clicking the icon to the right.
+On our website, the tables have a 'source' component that leads you to outside websites. Since the website only has a limited number of genes and genomes available, these external links take you to digital databases where you can explore more information. The information on the external databases might be used to help you learn more or conduct research on a topic of interest. Ensembl, RefSeq, and other external datasets are included.
 
 </head>
 </html>
