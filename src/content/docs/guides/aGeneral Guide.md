@@ -2,15 +2,14 @@
 title: General 
 description: Get started building your docs site with Starlight.
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<u><h4>Introduction To our Website</h4></u>
-<p>Our website was created in response to a general lack of accessible ohnolog datasets as well as visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of the website is that users are able to freely download all of the data available.</p>
 
-<p>On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. This allows you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to access to more data than what is provided on our website.</p>
+### <u> Introduction To our Website </u>
 
-<p>Below are some key definitons that are useful to know when using the website,</p>
+Our website was created in response to a general lack of accessible ohnolog datasets and visual representations of ohnologs. Furthermore, obtaining certain rights from the researchers themselves may be necessary to access the data on those sites. A key feature of this website is that users are able to freely download all of the data available.
+
+On the website you are able to select certain genes and genomes using the tables which can be located towards the bottom of most sections. They can allow you to create dotplots that compare the genomes of two distinct species, circos plots of one species at a time, and explore gene trees, as well as view ohnolog data sets and download them. You can also view external databases if you wish to find more in-depth information about a specific gene.
+
+Below are some key definitons that are useful to know when using the website,
 
 <ul>
 <li><b>Whole Genome Duplication (WGD):</b>  An event in which an extra copy, or copies in some cases, of the genome of an organism is made</li>
@@ -20,13 +19,14 @@ description: Get started building your docs site with Starlight.
 <li><b>Circos Plot:</b>   A visual representation of genomic data</li>
 </ul>
 
-<h4><p><u>Tables</h4></p></u>
-<p>The majority of the website's sections end with tables. Not all tables have exactly the same headers; the following table lists all possible headings on the website.<p>
+### <u> Tables </u>
+
+The majority of the website's sections have tables towards the bottom of each page. Not all tables have exactly the same headers; the following table lists all the possible headings you may see on the website.
 
 
 | Genome | Protein |Species | State | Source | Version | Scaffolds | Genes |Segments|
 
-<p>The points below explain what each header refers to, </p>
+The points below explain what each header refers to, 
 
 <ul>
 <li><b>Genome:</b>     Name of the genome</li>
@@ -40,18 +40,13 @@ description: Get started building your docs site with Starlight.
 <li><b>Segments:</b>   How many segments are there in the genome</li>
 </ul>
 
+The data on the website is completely accessible to the public, and you are free to download it all or simply choose particular genes of interest. In order to do this, you will need to find the table that contains the data you are looking for. In general, you will first need to select options in the boxes at the top of the page that has the necessary table or type in the name of your gene/genome/protein if a search box is present. This refines your search to find what you are specifically looking for.  
+Once the table is displaying your data a 'Download' button will appear on the right hand side of the table. If you wish to find other data, or you have made a mistake, there is a 'Cancel' button next to 'Download' which removes everything that was previously selected.
 
-<p>
-The data on the website is completely accessible to the public, and you are free to download it all or simply choose particular genes. You must first find the table that contains the data you are looking for in order to do this. In general, you will first need to select some options in the boxes at the top of the page that has the necessary table. This refines your search to find what you are specifically looking for.  However, there are two choices available to you if you are on the website's Species page.The first box besides the header "Genome" on the table must be selected in order to select all of the data. Next, click the download button that will appear on the upper right corner of the table. Use the search bar to find the desired genes, then click the box to the left of each gene's name to only choose those genes.
-</p>
+### <u> Global Selection </u>
+One of the tools available on the website is Global Selection. This means that when a gene is selected anywhere on our website, either through a table, or graphically, it will continue to be added to your selection. This selection persists across pages and this may affect any plots, searches or data you wish to download. If you wish to avoid this, it is important to ensure that no genes are still selected in the table beforehand. You can easily do this by clicking the 'Cancel' button which can be found at the top right of every table. Note that Global Selection is specific for genes selected, it does not persist with any species selected. 
 
+### <u> Databases, Internal Links and External Links </u>
 
-<h4><p><u>Global Selection</h4></p></u>
-One of the tools available on the website is Global Selection. This means that when a gene is selected anywhere on our website, either through a table, or graphically, it will continue to be added to your selection. This selection persists across pages and this may affect any plots, searches or data you wish to download.If you wish to avoid this,it is important to ensure that no genes are still selected in the table beforehand. You can do this by selecting then unselecting the box next to the first heading of a table, if you are on the Species section or by unselecting the options you have picked in the boxes at the top of the section you are on. Note that Global Selection is specific for genes selected, it does not persist with species selected.
+On our website, some tables have a 'Source' component which leads you to other websites, these links take you to external databases. The information on the external databases might be useful to you if you wish to learn more about a particular gene  or to conduct research on a topic of interest. Ensembl, RefSeq, and other external datasets are included.
 
-<h4><p><u>Databases, Internal Links and External Links</u></p></h4>
-
-On our website, the tables have a 'source' component that leads you to outside websites. Since the website only has a limited number of genes and genomes available, these external links take you to digital databases where you can explore more information. The information on the external databases might be used to help you learn more or conduct research on a topic of interest. Ensembl, RefSeq, and other external datasets are included.
-
-</head>
-</html>
