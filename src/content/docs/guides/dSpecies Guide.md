@@ -3,27 +3,21 @@ title: Species
 description: Get started building your docs site with Starlight.
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
+### <u>Search Boxes </u>
 
-<h4><p><u>Search Boxes</h4></p></u>
-
-<p>A convenient feature of our website are the search boxes, they a useful tool for focusing your search for the genomes of a particular species you are looking for. These search search boxes are listed in the table below. The table below lists the titles of the search boxes</p>
+A convenient feature of our website are the search boxes, they a useful tool for focusing your search for the genomes of a particular species you are looking for. These search search boxes are listed in the table below. The table below lists the titles of the search boxes
 
 | Source | State |
 
 <ul>
 <li><b>Source:</b> Where the data in the table came from</li>
-<li><b>State:</b>
+<li><b>State:</b> The genome will either be present, a modern genome, or other, an ancient genome
 </ul>
 
 
-<p>The 'Exact' function, that can be found next to the search boxes, is beneficial if you are trying to find a very particular genome. When selected, the table will show results with the specific label you seleted in the drop box. When it is not selected the table will show all the results that have relevant labels.</p>
+### <u>Using the Table </u>
 
-<h4><p><u>Using the Table</u></p></h4>
-
-<p>In this part of the website you have the ability to search for a specific genome. The table below lists each of the headings on the table</p>
+In this part of the website you have the ability to search for a specific genome. The table below lists each of the headings on the table
 
 
 | Genome | Species | State | Source | Version | Scaffolds | Segments | Genes |
@@ -39,5 +33,4 @@ description: Get started building your docs site with Starlight.
 <li><b>Genes:</b> The name of the gene
 </ul>
 
-</head>
-</html>
+You are able to download any of the data as you wish. Use the search boxes, mentioned previously, to find the specific data you are looking for. Once the table updates there will be a blue 'Download' button located to the top right of the table. If you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
