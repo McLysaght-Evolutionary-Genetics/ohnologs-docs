@@ -2,14 +2,14 @@
 title: Gene 
 description: Get started building your docs site with Starlight.
 ---
-<!DOCTYPE html>
-<html>
-<head>
 
-<h4><p><u>Search Boxes</h4></p></u>
 
-<p>A useful feature of this section of our website is that you can easily narrow down your search for specific genes by checking boxes which saves you from having to manually navigate through pages of tables. The table below lists all the boxes you will see in the 'Gene' section.
-</p>
+### <u>Search Boxes </u>
+
+A useful feature of this section of our website is that you can easily narrow down your search for specific genes by checking boxes which saves you a lot of time manually navigating through pages of tables. Under 'Labels' there is a small 'Exact match' box. This allows you to search for very specific labels, once selected the table will only show ohnologs with the exact label you have given it.
+
+ The table below lists all the boxes you will see in the 'Gene' section. 
+
 
 | Species | Source | Labels |
 
@@ -19,14 +19,12 @@ description: Get started building your docs site with Starlight.
 <li><b>Labels:</b>            </li>
 </ul>
 
-<p>An important feature of this table is the 'Exact' box which can be found under the boxes mentioned above. When you choose 'Exact,' you choose only the genes with that specific label. You will receive all the genes with all related labels if 'Exact' is not selected.</p>
 
-<h4><p><u>Using the Table</h4></p></u>
+### <u> Using the Table </u>
 
-<p>You can use the table in this section of the website to find certain genes of interest. Below is a table listing all the headings in the table</p>
+You can use the table in this section of the website to find certain genes of interest. Below is a table listing all the headings in the table,
 
 | Gene | Protein | Species | Source | Scaffold | Segment | Labels |
-
 
 <ul>
 <li><b>Gene:</b> Name of the gene</li>
@@ -36,12 +34,15 @@ description: Get started building your docs site with Starlight.
 <li><b>Scaffold:</b> This is the joining of a genomic sequence's non-contiguous series</li>
 <li><b>Segment: </b> How many segments are there in the genome</li>
 <li><b>Labels:</b></li>
+</ul>
+
+You can download any of the data found on the website. To do this go to the section of the website that has the data you would be looking for, genes/genomes/proteins, and use the selction boxes to refine your search. Once the table has been updated there will be a 'Download' button on the right hand side of the table. Note that if you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
 
-<h4><p><u>Ensembl</h4></p></u>
+### <u> Ensembl and Internal Links </u>
 
-<p>Ensembl is a browser for genome sequences, this was included as not all genomes are available on the website. There are external links on our website under the 'Source' heading of many tables, some of them lead to this browser and from there you can search for other genome sequences.</p>
+Ensembl is a browser for genome sequences, this was included so that users can find more in-depth information relating to a certain gene. There are external links on the website under the 'Source' heading of the tables, some of them lead to this external database and from there you can search for other genes or genome sequences. 
+
+There are also two internal links in the table under the 'Protein' heading, these will lead you to the synteny and tree pages. The blue icon on the left will lead you to the tree page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
 
-</head>
-</html>
