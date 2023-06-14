@@ -7,7 +7,7 @@ description: Get started building your docs site with Starlight.
 
 The option to drop files onto our website is a helpful tool. You can locate and drop files, the type of files you are able to upload are explained in the 'Special Notes' section of this guide, onto the website using the box on the top left of the page and results for the genes in your file will be displayed on the table once the file has been uploaded. This is great if you are conducting research and need to seek for a certain gene in a file you are looking at.
 
-Clicking the 'Upload' link will take you to your files where you can search for the file you wish to upload. When the file is uploaded all the genes/proteins in your file will be identified and the database will be search for them using your genes/proteins as an input:
+Clicking the 'Upload' link will take you to your files where you can search for the one you wish to upload. When the file is uploaded all the genes/proteins in your file will be identified and the database will be search for them using your genes/proteins as an input:
 
  ![](../../../assets/selection_upload.jpg)
 
