@@ -3,20 +3,22 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  base: "/ohnologs/docs",
-  trailingSlash: "never",
+  // base: "/ohnologs/docs",
+  //trailingSlash: "never",
   integrations: [
     starlight({
-      title: 'My Docs',
+     
+      title: 'Documentation', 
       social: {
-        github: 'https://github.com/withastro/starlight',
+      
+        github: 'https://aoifolution.gen.tcd.ie/ohnologs/tree',
       },
       sidebar: [
         {
-          label: 'Start Here',
+          label: 'Notes',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Getting Started', link: '/' },
+            { label: 'Special Notes', link: '/' },
           ],
         },
         {
@@ -31,3 +33,5 @@ export default defineConfig({
     }),
   ],
 });
+
+
