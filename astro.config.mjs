@@ -7,7 +7,9 @@ export default defineConfig({
   //trailingSlash: "never",
   integrations: [
     starlight({
-     
+      logo: {
+        src: '/src/assets/logo.jpg',
+      },
       title: 'Documentation', 
       social: {
       
