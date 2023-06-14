@@ -35,7 +35,7 @@ If you are looking for further information relating to a particular gene, there 
 
 Look for this button on the tables if you wish to download any data from our site:
 
- ![](../../../assets/download.jpg)
+![](../../../assets/download.jpg)
 
 ### <u> Ensembl and Internal Links </u>
 
