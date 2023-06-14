@@ -29,7 +29,7 @@ Example of a table being generated using the protein sequence as the input:
 
 | Gene | Protein | Species | Source | Scaffold | Segment | Labels |
 
-The points below explain what each header in the table refers to, 
+The points below explain what each header refers to, 
 
 <ul>
 <li><b>Gene:</b> Name of the gene</li>
