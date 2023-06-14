@@ -11,7 +11,7 @@ A convenient feature of our website are the search boxes, they are a useful tool
 
 <ul>
 <li><b>Source:</b> Where the data in the table came from</li>
-<li><b>State:</b> The genome will either be present, a modern genome, or other, an ancient genome
+<li><b>State:</b> The genomes will either be present, a modern genome, or other, an ancient genome
 </ul>
 
 
