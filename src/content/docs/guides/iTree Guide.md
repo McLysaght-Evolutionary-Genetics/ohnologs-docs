@@ -29,7 +29,7 @@ Once you have created your gene tree there are a few features you can use,
 </ul>
 <br>
 
-This is an example of the features available to you when navigating the tree:
+This is an example of the features you can use when navigating the tree:
 
 ![](../../../assets/tree_features.jpg)
 
