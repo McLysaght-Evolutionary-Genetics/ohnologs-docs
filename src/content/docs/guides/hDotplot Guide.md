@@ -16,7 +16,7 @@ Additionally, duplicates can be noticed; a chromosome's location may correspond 
 
 ### <u> Constructing a Dotplot </u>
 
-You can create your own dotplot on our website with ease to compare the genomes of two different species of choice. Choose the species you want to view on the dotplot from the drop-down menus in the 'Query species' and 'Subject species' boxes at the top of the 'Dotplot' section. The same species may be used twice, but in order for the dotplot to be created, you must select an option in both of the boxes.
+You can create your own dotplot on our website to compare the genomes of two different species of choice. Choose the species you want to view on the dotplot from the drop-down menus in the 'Query species' and 'Subject species' boxes at the top of the 'Dotplot' section. The same species may be used twice, but in order for the dotplot to be created, you must select an option in both of the boxes.
 
 These are the dropdown menus available to you on the 'Dotplot' section:
 ![](../../../assets/dot_query_subject.jpg)
