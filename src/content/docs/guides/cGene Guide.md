@@ -58,7 +58,7 @@ Look for this button on the tables if you wish to download any data from our sit
 
 ### <u> Ensembl and Internal Links </u>
 
-Ensembl is a genome database, this was included so that users can find more in-depth information relating to a certain gene of interest. There are also external links on the website under the 'Source' heading of the tables, these lead to external databases and from there you can search for other genes or genome sequences. 
+Ensembl is a genome database, this was included in the site so that users can find more in-depth information relating to a certain gene of interest. There are also external links on the website under the 'Source' heading of the tables, these lead to external databases and from there you can search for other genes or genome sequences. 
 
 
 External link for the Ensembl database:
