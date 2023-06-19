@@ -35,7 +35,7 @@ If you are looking for further information relating to a particular gene, there 
 
 Look for this button on the tables if you wish to download any data from our site:
 
-![](../../../assets/download.jpg)
+ ![](../../../assets/download.jpg)
 
 ### <u> Ensembl and Internal Links </u>
 
@@ -44,7 +44,7 @@ Ensembl is a genome database, this was included so that users can find more in-d
 External link for the Ensembl database:
   ![](../../../assets/source.jpg)
 
-In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means (fortunately) you do not have to manually make the same selections again. However, if this is something you wish to avoid then click the 'Cancel' button found on the top right of the table.
+In addition to this, there are two internal links in the table under the 'Protein' heading which are very useful as you save time on reselecting dropdown menus. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means (fortunately) you do not have to manually make the same selections again. However, if this is something you wish to avoid click the 'Cancel' button found on the top right of the table.
 
 
 Internal link for the <b>Phylogeny</b> section:
