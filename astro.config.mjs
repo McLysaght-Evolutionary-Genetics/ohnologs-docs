@@ -7,13 +7,17 @@ export default defineConfig({
   //trailingSlash: "never",
   integrations: [
     starlight({
-   
-      title: 'Documentation', 
-      social: {
-      
-        github: 'https://aoifolution.gen.tcd.ie/ohnologs/tree',
-      },
+     
+     
+      title:'Home',
+    
       sidebar: [
+        {label: 'Navigation',
+        items: [
+          // Each item here is one entry in the navigation menu.
+          { label: 'Back to Database', link: 'https://aoifolution.gen.tcd.ie/ohnologs' },
+        ],
+      },
         {
           label: 'Notes',
           items: [
@@ -25,13 +29,7 @@ export default defineConfig({
           label: 'Guides',
           autogenerate: { directory: 'guides' },
         },
-        {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
-        },
       ],
     }),
   ],
 });
-
-
