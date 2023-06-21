@@ -14,10 +14,15 @@ In this part of the website you have the ability to search for all sequences in 
 <br>
 
 This is the search box you use to paste and find a specific protein sequence on our database:
-![](../../../assets/blast.jpg)
+<img src="/src/assets/blast.jpg"
+width="850"
+height="220" />
+
 
 Example of a protein sequence being searched:
-![](../../../assets/blast2.jpg)
+<img src="/src/assets/blast2.jpg"
+ width="600" 
+height="200" />
 
 Example of a table being generated using the protein sequence as the input:
 
@@ -46,7 +51,11 @@ The data on our website is freely available to the public and you are free to do
 
 Look for this button on the tables if you wish to download any data from our site:
 
- ![](../../../assets/download.jpg)
+<img src="/src/assets/download.jpg">
+
+
+
+
 
 
 
