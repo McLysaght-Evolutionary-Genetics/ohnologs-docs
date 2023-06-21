@@ -45,8 +45,7 @@ The data on the website is completely accessible to the public, and you are free
 Once the table is displaying your data a 'Download' button will appear on the right hand side of the table. If you wish to find other data, or you have made a mistake, there is a 'Cancel' button next to 'Download' which removes everything that was previously selected.
 
 Look for this button on the tables (top right) if you wish to download any, or all, data from our site:
-
- ![](../../../assets/download.jpg)
+<img src="/src/assets/download.jpg">
 
 ### <u> Global Selection </u>
 One of the tools available on the website is Global Selection. This means that when a gene is selected anywhere on our website, either through a table, or graphically, it will continue to be added to your other selections , again, such as tables or plots. This selection persists across pages and this may affect any plots, searches or data you wish to download. If you wish to avoid this, it is important to ensure that no genes are still selected in the table beforehand. You can easily do this by clicking the 'Cancel' button which can be found at the top right of every table.
@@ -56,15 +55,22 @@ One of the tools available on the website is Global Selection. This means that w
 On our website, some tables have a 'Source' component which leads you to other websites, these links take you to external databases. The information on the external databases might be useful to you if you wish to learn more about a particular gene. Ensembl, RefSeq, and other external datasets are included.
 
 External links databases:
-  ![](../../../assets/source.jpg)
+  <img src="/src/assets/source.jpg">
 
 As well as this, we have also included internal links which lead you to the 'Phylogeny' and 'Synteny' sections of the site. This makes it quite simple to construct graphs or look for other relevant information on our site as it saves you time from reselecting and searching again.
 
 Internal link for the <b>Phylogeny</b> section:
-  ![](../../../assets/internal_tree.png)
+  <img src="/src/assets/internal_tree.png">
 
 
 Internal link for the <b>Synteny</b> section:
- ![](../../../assets/internal_synteny.png)
+ <img src="/src/assets/internal_synteny.png">
+
+
+ <script>
+function myFunction() {
+  window.location.href = "https://aoifolution.gen.tcd.ie/ohnologs"
+}
+</script>
 
 
