@@ -15,15 +15,19 @@ A convenient feature of our website are the search boxes, they are a useful tool
 </ul>
 
 
-### <u>Using the Table </u>
+### <u> Using the Table </u>
 
 In this part of the website you have the ability to search for a specific genome. After using the dropdown menus, explained above, the table will automatically update to show you the genomes you are looking for.
 
 These are the dropdown menus available on this section of our site:
- ![](../../../assets/species_dropmenu.jpg)
+ <img src="/src/assets/species_dropmenu.jpg"
+ width="950"
+ height="200" />
 
  This is an example of a table generated where ensembl was selected in the 'source' dropdown menu, note the download button (rhs):
- ![](../../../assets/species_table.jpg)
+ <img src="/src/assets/species_table.jpg"
+ width="1000"
+ height="500"/>
 
  <br>
  
@@ -47,4 +51,4 @@ You are able to download any of the data as you wish. Use the search boxes, ment
 
 Look for this button on the tables if you wish to download any data from our site:
 
- ![](../../../assets/download.jpg)
+ <img src="/src/assets/download.jpg">
