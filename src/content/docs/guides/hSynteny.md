@@ -4,7 +4,7 @@ description: Get started building your docs site with Starlight.
 ---
 
 ### <u>Synteny </u>
-Synteny can be defined as two or more genes being on the same chromosome in a particular species. Synteny can then be divided into micro-synteny and macro-synteny where micro-synteny is a type of synteny in which only a small number of genes are conserved and macro-synteny refers to the conservation of large blocks of genes. 
+Synteny can be defined as two or more genes being on the same chromosome in a particular species. Synteny can then be further divided into micro-synteny and macro-synteny where micro-synteny is a type of synteny in which only a small number of genes are conserved and macro-synteny is the conservation of large blocks of genes. 
 
 ### <u> Using the Plot </u>
 
@@ -12,9 +12,9 @@ Synteny plots are a great way to visualise the conservation of genes among vario
 
 The following notes and features are very helpful to know when navigating the plot,
 
-The synteny plot shows blocks of micro-synteny that match to homologous genes. Once selected, genes appear as coloured boxes and the conservation can be seen by following the horizontal line(s) that matches to other genes. Selecting genes on the plot will automatically update the table, located at the bottom of the page, with those genes. Similarily, selecting genes in the table will have them selected on the plot.
+The synteny plot shows blocks of micro-synteny that match to homologous genes, the horizontal lines seen along the plot represent chromosomes. Once selected, genes appear as coloured boxes and the conservation can be seen by following the horizontal line(s) that matches to other genes. Selecting genes on the plot will automatically update the table, located at the bottom of the page, with those genes. Similarily, selecting genes in the table will have them selected on the plot.
 
-The names of species and chromosome number as seen on the plot:
+The names of species and chromosome number as seen on the plot (lhs):
 
 <img src="/src/assets/synteny_species.jpg"
 width="100"
@@ -33,7 +33,7 @@ Example of highlighting multiple genes using selection mode:
 width="450"
 height="300" />
 
-The menu seen when a gene is hovered over:
+This is an example of a menu seen when a gene is hovered over:
 
 <img src="/src/assets/synteny_menu.jpg"
 width="300"
@@ -61,7 +61,7 @@ The points below explain what each header refers to,
 </ul>
 <br>
 
-Note that selections made from other parts of the website will persist and appear in both table and the plot which is useful if you have already made many specific selections. However, if this is something you wish to avoid, refreshing the page removes any previously made selections across the website.
+Note that selections made from other parts of the website will persist and appear in both table and the plot which is useful if you have already made many specific selections. However, if this is something you wish to avoid, refreshing the page removes any previously made selections from across the website.
 
 You can download any of the data found on the website. To do this go to the section of the website that has the data you would be looking for, genes/genomes/proteins, and use the selction boxes to refine your search. Once the table has been updated there will be a 'Download' button on the right hand side of the table. Note that if you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
