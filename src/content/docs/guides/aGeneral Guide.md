@@ -14,8 +14,9 @@ Below are some key definitons that are useful to know when navigating the websit
 <ul>
 <li><b>Whole Genome Duplication (WGD):</b>  An event in which an extra copy, or copies in some cases, of the genome of an organism is made</li>
 <li><b>Ohnologs:</b>      Genes that arise from WGD events</li>
-<li><b>Synteny:</b>       Two or more genes being on the same chromosome in a particular species</li>
-<li><b>Microsynteny:</b>  A type of synteny in which only a small number of genes are conserved</li>
+<li><b>Synteny:</b>       Certain genes being on the same chromosome in a species</li>
+<li><b>Microsynteny:</b>  a type of synteny in which there is conservation of gene order across different sections of the genome</li>
+<li><b>Macrosynteny:</b>  the conservation of gene content across different sections of the genome.</li>
 <li><b>Circos Plot:</b>   A visual representation of genomic data</li>
 </ul>
 
