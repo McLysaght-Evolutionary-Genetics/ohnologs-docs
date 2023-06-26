@@ -3,7 +3,6 @@ title: Special Notes
 description: Special Notes
 ---
 <ul>
-<br>
 <li>Search queries need to be in FASTA format.</li>
 <br>
 <li>Global Selection is specific for genes selected, it does not persist with any species that have been selected.</li>
