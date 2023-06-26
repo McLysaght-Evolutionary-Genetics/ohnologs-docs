@@ -13,8 +13,8 @@ As mentioned previously, circos plots are very useful for displaying all kinds o
 
 This is the dropdown menu ('query species') used on this section of our website:
 <img src="/src/assets/circos_query.jpg"
-width="700"
-height="115" />
+width="550"
+height="100" />
 
  
 This is an example of a circos plot that has been generated when 'human' was used as the query species:
@@ -23,13 +23,13 @@ This is an example of a circos plot that has been generated when 'human' was use
 
 This is an example of a table generated , located below the circos plot, using 'human' as the query species in the dropdown menu, note the download button (rhs):
 <img src="/src/assets/circos_table.jpg"
-width="1300"
-height="350"/>
+width="700"
+height="400"/>
 
 
 Once you have made a circos plot you can hover over the chromosomes, on the outside of the circle, to highlight paralogy relationships. Other relationships will be dimmed until hovered over.
 
-Refreshing the page or going to another section of the website and coming back will both remove the circos plot you made.
+Clicking the 'cancel' button on the top right of the table will remove any selections you have made as well as your circos plot.
 
 ### <u> Using the Table </u>
 
@@ -43,20 +43,18 @@ Look for this button on the tables if you wish to download any data from our sit
 
 ### <u> Ensembl and Internal Links </u>
 
-Ensembl is a genome database, this was included so that users can find more in-depth information relating to a certain gene of interest. There are also external links on the website under the 'Source' heading of the tables, these lead to external databases and from there you can search for other genes or genome sequences. 
+There are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
 
-External link for the Ensembl database:
-<img src="/src/assets/source.jpg">
+In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
-In addition to this, there are two internal links in the table under the 'Protein' heading which are very useful as you save time on reselecting dropdown menus. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means (fortunately) you do not have to manually make the same selections again. However, if this is something you wish to avoid click the 'Cancel' button found on the top right of the table.
+<img src="/src/assets/synteny_table2.jpg">
 
+<ul>
+<li><b>1</b> Internal link to the phylogeny page</li>
+<li><b>2</b> Internal link to the synteny page</li>
+<li><b>3</b> Link to external database </li>
+</ul>
 
-Internal link for the <b>Phylogeny</b> section:
-<img src="/src/assets/internal_tree.png">
-
-
-Internal link for the <b>Synteny</b> section:
-<img src="/src/assets/internal_synteny.png">
 
 
 

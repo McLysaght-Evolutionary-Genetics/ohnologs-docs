@@ -18,13 +18,13 @@ The table on this part of the website is good if you have a favourite gene and w
 
 This is search box for manually searching for gene/protein names:
  <img src="/src/assets/selection_paste.jpg"
- width="1000"
- height="120"/>
+ width="450"
+ height="100"/>
 
- This an example of table generated using the protein 'ENSTNIP00000019077' as the input, note the download button (rhs):
+ This an example of table generated using the protein 'ENSTNIP00000019077' as the input:
 <img src="/src/assets/selection_table.jpg"
-width="1100"
-height="250" />
+width="650"
+height="300" />
 
 You can download any of the data found on the website. To do this go to the section of the website that has the data you would be looking for, genes/genomes/proteins, and use the selction boxes to refine your search. Once the table has been updated there will be a 'Download' button on the right hand side of the table. Note that if you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
 

@@ -13,15 +13,12 @@ A good feature of our website is that you can easily make gene trees to view the
 
 This is the search box for proteins:
 
-<img src="/src/assets/tree_search.jpg"
-width="1000"
-height="100"/>
+<img src="/src/assets/tree_search.jpg">
+
 
 This is an example of a gene tree that was constructed when the protein 'ENSDARP00000137849' was searched:
 
-<img src="/src/assets/tree.jpg"
-width="700"
-height="300" />
+<img src="/src/assets/tree.jpg">
 
 ### <u> Navigating the Gene Tree </u>
 
@@ -34,7 +31,6 @@ Once you have created your gene tree there are a few features you can use,
 <br>
 
 This is an example of the features you can use when navigating the tree:
-<img src="/src/assets/tree_features.jpg"
-width="900"
-height="400" />
+<img src="/src/assets/tree_features.jpg">
+
 

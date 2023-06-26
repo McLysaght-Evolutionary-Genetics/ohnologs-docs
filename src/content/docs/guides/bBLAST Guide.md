@@ -14,9 +14,7 @@ In this part of the website you have the ability to search for all sequences in 
 <br>
 
 This is the search box you use to paste and find a specific protein sequence on our database:
-<img src="/src/assets/blast.jpg"
-width="850"
-height="220" />
+<img src="/src/assets/blast.jpg">
 
 
 Example of a protein sequence being searched:

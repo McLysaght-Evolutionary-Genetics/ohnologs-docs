@@ -50,27 +50,19 @@ Look for this button on the tables (top right) if you wish to download any, or a
 ### <u> Global Selection </u>
 One of the tools available on the website is Global Selection. This means that when a gene is selected anywhere on our website, either through a table, or graphically, it will continue to be added to your other selections , again, such as tables or plots. This selection persists across pages and this may affect any plots, searches or data you wish to download. If you wish to avoid this, it is important to ensure that no genes are still selected in the table beforehand. You can easily do this by clicking the 'Cancel' button which can be found at the top right of every table.
 
-### <u> Databases, Internal Links and External Links </u>
+### <u> Ensembl and Internal Links </u>
 
-On our website, some tables have a 'Source' component which leads you to other websites, these links take you to external databases. The information on the external databases might be useful to you if you wish to learn more about a particular gene. Ensembl, RefSeq, and other external datasets are included.
+On our website there are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
 
-External links databases:
-  <img src="/src/assets/source.jpg">
+In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
-As well as this, we have also included internal links which lead you to the 'Phylogeny' and 'Synteny' sections of the site. This makes it quite simple to construct graphs or look for other relevant information on our site as it saves you time from reselecting and searching again.
+<img src="/src/assets/synteny_table2.jpg">
 
-Internal link for the <b>Phylogeny</b> section:
-  <img src="/src/assets/internal_tree.png">
+<ul>
+<li><b>1</b> Internal link to the phylogeny page</li>
+<li><b>2</b> Internal link to the synteny page</li>
+<li><b>3</b> Link to external database </li>
+</ul>
 
-
-Internal link for the <b>Synteny</b> section:
- <img src="/src/assets/internal_synteny.png">
-
-
- <script>
-function myFunction() {
-  window.location.href = "https://aoifolution.gen.tcd.ie/ohnologs"
-}
-</script>
 
 

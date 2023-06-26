@@ -29,13 +29,18 @@ You can use the table in this section of the website to find certain genes of in
 
 These are dropdown menus you can use to narrow down the search for your ohnolog of interest:
 <img src= "/src/assets/gene_dropmenu.jpg"
-width="1000" 
-height="300"/>
+width="700"
+height="250" />
+
 
 This is an example of a table generated using chicken (species), 1 (chromosome) and ensembl (source) as the input, take note of the download button (rhs):
+<img src="/src/assets/gene_select.jpg"
+width="700"
+height="150" />
+
 <img src="/src/assets/gene_table.jpg"
-width="1000"
-height="500" />
+width="700"
+height="150" />
 
 <br>
 
@@ -61,21 +66,17 @@ Look for this button on the tables if you wish to download any data from our sit
 
 
 ### <u> Ensembl and Internal Links </u>
+There are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
 
-Ensembl is a genome database, this was included in the site so that users can find more in-depth information relating to a certain gene of interest. There are also external links on the website under the 'Source' heading of the tables, these lead to external databases and from there you can search for other genes or genome sequences. 
+In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
+<img src="/src/assets/synteny_table2.jpg">
 
-External link for the Ensembl database:
-<img src="/src/assets/source.jpg">
-
-In addition to this, there are two internal links in the table under the 'Protein' heading which are very useful as you save time on reselecting dropdown menus. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if you wish to avoid this click the 'Cancel' button found on the top right of the table.
-
-Internal link for the <b>Phylogeny</b> section:
-<img src="/src/assets/internal_tree.png">
-
-
-Internal link for the <b>Synteny</b> section:
-<img src="/src/assets/internal_synteny.png">
+<ul>
+<li><b>1</b> Internal link to the phylogeny page</li>
+<li><b>2</b> Internal link to the synteny page</li>
+<li><b>3</b> Link to external database </li>
+</ul>
 
 
 
