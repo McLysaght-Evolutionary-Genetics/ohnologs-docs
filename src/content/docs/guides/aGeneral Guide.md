@@ -59,11 +59,11 @@ In addition to this, there are two internal links in the table under the 'Protei
 
 <img src="/src/assets/synteny_table2.jpg">
 
-<ul>
-<li><b>1</b> Internal link to the phylogeny page</li>
-<li><b>2</b> Internal link to the synteny page</li>
-<li><b>3</b> Link to external database </li>
-</ul>
+<ol>
+<li> Internal link to the phylogeny page</li>
+<li> Internal link to the synteny page</li>
+<li> Link to external database </li>
+</ol>
 
 
 
