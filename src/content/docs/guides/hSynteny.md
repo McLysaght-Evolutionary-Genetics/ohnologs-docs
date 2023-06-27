@@ -31,7 +31,10 @@ Here is an example of conservation seen when the gene 'ENSG00000141664' is selec
 
 Once you have created your plot it may be helpful to be aware of the following features available to you when navigating.
 
-You are able to resize the synteny plot by using the scroll wheel on your mouse whilst your cursor is hovering over the plot. To move around you can drag your cursor around the plot. Selecting 's' on your keyboard opens the selection mode on the plot where you can drag the cursor to select and highlight many genes across multiple chromosomes. As well as this, hovering over a particular gene opens a small menu which lists chromosome, species, gene, protein and location. It also includes the source of the gene through a link to Ensembl, an external genome database available to further research your chosen gene, this is further explained in the [Ensembl and Internal Links](http://localhost:3000/guides/hsynteny/#-ensembl-and-internal-links) heading below.
+You are able to resize the synteny plot by using the scroll wheel on your mouse whilst your cursor is hovering over the plot. To move around you can drag your cursor around the plot. Selecting 's' on your keyboard opens the selection mode on the plot where you can drag the cursor to select and highlight many genes across multiple chromosomes. You can cancel the selection mode by hitting the escape key. 
+
+
+As well as this, hovering over a particular gene opens a small menu which lists chromosome, species, gene, protein and location. It also includes the source of the gene through a link to Ensembl, an external genome database available to further research your chosen gene, this is further explained in the [Ensembl and Internal Links](http://localhost:3000/guides/hsynteny/#-ensembl-and-internal-links) heading below.
 
 Example of highlighting multiple genes using selection mode:
 
@@ -47,26 +50,29 @@ height="200" />
 
 ### <u> Using the Table </u> 
 
-When a synteny plot has been generated a table will be too. The table allows you to select various genes/proteins from the table to add them to you synteny plot. 
+When a synteny plot has been generated a table will be too. The table allows you to select various genes/proteins from the table to add them to you synteny plot. Note that if the gene you selected earlier is part of multiple synteny blocks you can scroll to the bottom of the table and go through all the pages.
+
+The page(s) can be seen like this,
+<img src="/src/assets/synteny_pages.jpg">
 
 <u>The table's headings are as follows:</u>
 
 <img src="/src/assets/synteny_table.jpg"
-width="650"
-height="170" />
+width="750"
+height="120"/>
 
 The points below explain what each header refers to, 
 
-<ul>
-<li><b>1</b> Name of the gene</li>
-<li><b>2</b> Name of the protein</li>
-<li><b>3</b> Name of the species</li>
-<li><b>4</b> Where the data in the table came from. The possible sources are Ensembl, RefSeq or other</li>
-<li><b>5</b> Which chromosome a particular gene is located on </li>
-<li><b>6</b> How many segments are there in the genome </li>
-<li><b>7</b> Evidence-based. They will either be micro-synteny, macro-synteny or gene phylogeny</li>
-<li><b>8</b> The button to use if you wish to download any data from the table</li>
-</ul>
+<ol>
+<li> Name of the gene
+<li> Name of the protein
+<li> Name of the species
+<li> Where the data in the table came from. The possible sources are Ensembl, RefSeq or other
+<li> Which chromosome a particular gene is located on 
+<li> How many segments are there in the genome 
+<li> Evidence-based. They will either be micro-synteny, macro-synteny or gene phylogeny
+<li> The button to use if you wish to download any data from the table
+</ol>
 <br>
 
 Note that selections made from other parts of the website will persist and appear in both table and the plot which is useful if you have already made many specific selections. However, if this is something you wish to avoid, clicking the blue 'cancel' button, located on the top right hand side of the table, removes any previously made selections from across the website.
@@ -84,11 +90,11 @@ In addition to this, there are two internal links in the table under the 'Protei
 
 <img src="/src/assets/synteny_table2.jpg">
 
-<ul>
-<li><b>1</b> Internal link to the phylogeny page</li>
-<li><b>2</b> Internal link to the synteny page</li>
-<li><b>3</b> Link to external database </li>
-</ul>
+<ol>
+<li>Internal link to the phylogeny page</li>
+<li> Internal link to the synteny page</li>
+<li>Link to external database </li>
+</ol>
 
 
 
