@@ -12,9 +12,8 @@ Circos plots are circular visual displays used for showing genomic data. They 
 As mentioned previously, circos plots are very useful for displaying all kinds of genomic data in a simplistic way that makes it easy to understand. In order to make a circos plot on our website you will need to select the species of choice in the search boxes called 'Query species' and click enter. Note that only one species can be selected for the circos plot at a time and that once a circos plot has been created, the gene table will be at the very bottom of the page and the plot will change based on selection. 
 
 This is the dropdown menu ('query species') used on this section of our website:
-<img src="/src/assets/circos_query.jpg"
-width="550"
-height="100" />
+<img src="/src/assets/circos_query.jpg">
+
 
  
 This is an example of a circos plot that has been generated when 'human' was used as the query species:
@@ -22,9 +21,8 @@ This is an example of a circos plot that has been generated when 'human' was use
 
 
 This is an example of a table generated , located below the circos plot, using 'human' as the query species in the dropdown menu, note the download button (rhs):
-<img src="/src/assets/circos_table.jpg"
-width="700"
-height="400"/>
+<img src="/src/assets/circos_table.jpg">
+
 
 
 Once you have made a circos plot you can hover over the chromosomes, on the outside of the circle, to highlight paralogy relationships. Other relationships will be dimmed until hovered over.
@@ -49,11 +47,11 @@ In addition to this, there are two internal links in the table under the 'Protei
 
 <img src="/src/assets/synteny_table2.jpg">
 
-<ul>
-<li><b>1</b> Internal link to the phylogeny page</li>
-<li><b>2</b> Internal link to the synteny page</li>
-<li><b>3</b> Link to external database </li>
-</ul>
+<ol>
+<li> Internal link to the phylogeny page</li>
+<li> Internal link to the synteny page</li>
+<li> Link to external database </li>
+</ol>
 
 
 
