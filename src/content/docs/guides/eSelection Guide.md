@@ -17,14 +17,12 @@ Clicking the 'Upload' link will take you to your files where you can search for 
 The table on this part of the website is good if you have a favourite gene and want to find all its ohnologs or orthologs (that are also ohnologs) in our database. There are two ways to find them. The first way is to directly upload a file to the site , as explained previosuly, or to manually look for a gene/protein using the search box (underneath the upload box). Both of these methods will automatically update the table to locate the gene/protein you are looking for on our database. 
 
 This is search box for manually searching for gene/protein names:
- <img src="/src/assets/selection_paste.jpg"
- width="450"
- height="100"/>
+ <img src="/src/assets/selection_paste.jpg">
+
 
  This an example of table generated using the protein 'ENSTNIP00000019077' as the input:
-<img src="/src/assets/selection_table.jpg"
-width="650"
-height="300" />
+<img src="/src/assets/selection_table.jpg">
+
 
 You can download any of the data found on the website. To do this go to the section of the website that has the data you would be looking for, genes/genomes/proteins, and use the selction boxes to refine your search. Once the table has been updated there will be a 'Download' button on the right hand side of the table. Note that if you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
 
