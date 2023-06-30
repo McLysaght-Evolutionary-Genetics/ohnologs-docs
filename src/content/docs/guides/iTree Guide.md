@@ -27,8 +27,11 @@ Once you have created your gene tree there are a few features you can use,
 <ul>
 <li>Any branch of the tree can be highlighted in red by clicking on it. Click it once more to cancel the highlighting.</li>
 <li>By clicking and dragging the screen (on a section other than a branch), you can highlight several tree segments in blue, dotted lines. Then, by dragging this box around the screen, other tree branches can be highlighted. The blue highlighting is removed by right clicking and then left clicking.</li>
+<li>The red dots on the tree represent whole genome duplication events</li>
 </ul>
 <br>
+
+
 
 This is an example of the features you can use when navigating the tree:
 <img src="/src/assets/tree_features.jpg">
