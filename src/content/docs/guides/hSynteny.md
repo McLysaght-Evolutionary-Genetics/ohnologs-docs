@@ -57,9 +57,8 @@ The page(s) can be seen like this,
 
 <u>The table's headings are as follows:</u>
 
-<img src="/src/assets/synteny_table.jpg"
-width="750"
-height="120"/>
+<img src="/src/assets/synteny_table.jpg">
+
 
 The points below explain what each header refers to, 
 
