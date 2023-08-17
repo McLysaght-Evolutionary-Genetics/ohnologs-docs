@@ -3,61 +3,64 @@ title: Dotplot
 description: Get started building your docs site with Starlight.
 ---
 
+### Dotplots
 
-### <u> Dotplots </u>
+Our website provides dynamically-generated dotplots. Dotplots are useful for visualising the ohnologous relationships between chromosomes from different species. Whole genome duplicaiton events create a copies of every chromosome in the genome. As a result, when we compare all the chromosomes between two species that share a WGD event, we will see a 2:2 correspondance between chromosomes (or chromosomal segments after multiple rearrangements have occured).
 
-Dotplots can be used to compare the genomes of two different species. In essence, it has a vertical and horizontal axis with scattered data in the form of dots. It is a way to visualise the provided data and to recognise, simply, the similarities and differences between species. 
+### Dotplot settings
 
-Dotplots are very useful for identifying various patterns of synteny. When the same query species is chosen, micro-synteny is detected by long, continuous lengths. On our site the dots represent homology relationships. Clusters of dots, whether or not they are in the same region, is characteristic of macro-synteny.
+In order to display a dotplot, you must first select the query and subject species which will be compared. This can be done by picking both species using the appropriate dropdown menus. Once both species are selected, the dotplot will appear below.
 
-You can also see chromosomal inversions on your dotplot. Look for breaks in contiguous lines, with the broken area being a shorter line at a 90-degree angle.
+(incl img)
 
-Additionally, duplicates can be noticed; a chromosome's location may correspond to several locations.
+### Reading the plot
 
-### <u> Constructing a Dotplot </u>
+The chromosomes of the query (x-axis) and subject (y-axis) species are labelled and displayed in a grid - each box represents a chromosome-chromosome comparison. Blue dots represent homologous genes between chromosomes. 
 
-You can create your own dotplot on our website to compare the genomes of two different species of choice. Choose the species you want to view on the dotplot from the drop-down menus in the 'Query species' and 'Subject species' boxes at the top of the 'Dotplot' section. The same species may be used twice, but in order for the dotplot to be created, you must select an option in both of the boxes.
+When examining this synteny between chromosomes, there are two major patters; We can see micro-synteny as stretches of diagonal lines. These sections of chromosomes are homologous and have not gone through many rearrangement or gene shuffling events, therefore preserving the gene order. Another noteworthy pattern is that of macro-synteny. We can identify this by looking for clouds of homologous genes between chromosomal segments. While these segments contain a high amount of homologous genes, their order has been shuffled over time.
 
-These are the dropdown menus available to you on the 'Dotplot' section:
-<img src="/src/assets/dot_query.jpg">
-<img src="/src/assets/dot_subject.jpg">
+(needs images?)
 
+You can interact with the plot by hovering your mouse cursor over any of the boxes - this will highlight the current box, row, and column. Right clicking on a box will open a context menu that will allow you to perform several actions:
 
-After making your selections in both menus a dotplot will be automatically contstructed, such as the one below that was made where 'Human' and 'Turkey' were the query species:
-<img src="/src/assets/dotplot.jpg">
+##### Select region
 
-Below is an example of a table that was created using 'human' as both the query species and subject species:
+This feature will highlight and add all of the genes in the current box to your selection.
 
-<img src="/src/assets/dotplot_table.jpg"
-width="650"
-height="200"/>
+##### Select row
 
+This feature will highlight and add all of the genes in the current row to your selection.
 
+##### Select column
 
-Clicking the 'cancel' button on the top right of the table will remove and previous selections made as well as your doplot.
+This feature will highlight and add all of the genes in the current column to your selection.
 
-### <u> Selection Tools </u>
+##### Free select
 
-There are many tools you can use on the website when constructing your dotplot. Your dotplot will display all the genes you've chosen as orange dots, making it simple to keep track of the genes. Right-clicking anywhere on the plot will bring up a context menu where you can select rows, colums, regions, etc. This menu will act on all the genes in a particular box, not any one specific gene. 
+This feature will create a movable and re-sizable box on the plot. Any genes in this box will be highlighted and added to your current selection.
 
-This is the menu that will appear when you right-click on the plot:
-<img src="/src/assets/dot_menu.jpg">
+... break ...
 
+(needs image?)
 
-### <u> Using the Table </u>
+Any homologous relationships involving genes that are currently in your selection will be highlighted in orange. You can add genes to your selection using the table below the plot. To read more about how gene selection works, read (this link).
 
-To view the genes and proteins of a specific species you will first need to select the same species in both the 'Query species' and 'Subject species' found at the top of the page, this will update the table to show all the relevant data. You can click the 'cancel' button on the top right of the table to clear the search boxes and the table if you wish to re-enter a new species. 
+##### Data table
 
-### <u> Ensembl and Internal Links </u>
+All genes belonging to the query and subject species will be shown in a table below the dotplot. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
-There are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
+##### Data download
 
-In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
+All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
-<img src="/src/assets/synteny_table2.jpg">
+:::caution
 
-<ul>
-<li><b>1</b> Internal link to the phylogeny page</li>
-<li><b>2</b> Internal link to the synteny page</li>
-<li><b>3</b> Link to external database </li>
-</ul>
+Unlike other tables, this download only plot data
+
+:::
+
+##### Linking
+
+You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+
+You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).

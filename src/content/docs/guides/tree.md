@@ -3,37 +3,44 @@ title: Tree
 description: Get started building your docs site with Starlight.
 ---
 
-### <u>Gene Trees </u>
+### Gene trees
 
-A gene tree is a visual representation showing genes and their evolutionary history. Gene trees are useful for analysing the evolution of specific genomes as well as reconstructing ancient genomes.
+Our website provides dynamically-generated gene trees. Gene trees are useful for visualising the evolutionary history of a gene and all of its homologs. Given that whole genome duplications create additional copies of every gene in the genome, we expect to see bifurcations in any given WGD tree where genes on either side of this node are ohnologous.
 
-### <u> Constructing a Gene Tree </u>
+### Tree settings
 
-A good feature of our website is that you can easily make gene trees to view the evolutionary history of a certain species or a protein. Two search boxes named  'Species' and 'Protein' are located near the top of the 'Tree' section. Type the species of choice in the "Species" box, and the name of the protein you are looking for in the "Protein" box. It should be noted that only one box could be filled out, not necessarily both. Once the box or boxes have been filled in click the blue 'Search' button located underneath the search boxes
+In order to display a gene tree, you must first select which tree/orthogroup you wish to plot. This can be done by entering a gene or protein identifier into the provided textbox and pressing the 'search' button. This will match the identifier against our database and attempt to find the gene tree that it belongs to.
 
-This is the search box for proteins:
+(insert img)
 
-<img src="/src/assets/tree_search.jpg">
+Selecting the query tree/orthogroup will generate a gene tree and display a table containing every gene present in the tree.
 
+### Reading the tree
 
-This is an example of a gene tree that was constructed when the protein 'ENSDARP00000137849' was searched:
+The tree shows the evolutionary history of all genes in the selected orthogroup. Each tree is rooted on amphioxus genes as an outgroup. Each bifurcating node represents a gene duplication event. Whole genome duplication nodes are highlighten in red. Leaf nodes are labelled with the gene species and protein identifier.
 
-<img src="/src/assets/tree.jpg">
+:::note
 
-### <u> Navigating the Gene Tree </u>
+Branch lengths represent evolutionary time.
 
-Once you have created your gene tree there are a few features you can use,
+:::
 
-<ul>
-<li>Any branch of the tree can be highlighted in red by clicking on it. Click it once more to cancel the highlighting.</li>
-<li>By clicking and dragging the screen (on a section other than a branch), you can highlight several tree segments in blue, dotted lines. Then, by dragging this box around the screen, other tree branches can be highlighted. The blue highlighting is removed by right clicking and then left clicking.</li>
-<li>The red dots on the tree represent whole genome duplication events</li>
-</ul>
-<br>
+##### Data table
 
+All genes belonging to the query tree/orthogroup will be shown in a table below the tree. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
+##### Data download
 
-This is an example of the features you can use when navigating the tree:
-<img src="/src/assets/tree_features.jpg">
+All genes present in the current tree can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
+:::caution
 
+Unlike other tables, this download only tree data
+
+:::
+
+##### Linking
+
+You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+
+You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).

@@ -3,59 +3,48 @@ title: Circos
 description: Get started building your docs site with Starlight.
 ---
 
-### <u> Circos Plots </u>
+### Circos plots
 
-Circos plots are circular visual displays used for showing genomic data. They make it easy to visualise certain genomic patterns. In our case it shows gene paralogy relationships.The arcs which compose the circle are chromosomes and are labelled as such. All the lines on the inside of the circle going from chromosome to chromosome are homologous genes. Blocks are charecteristic of whole genome duplications and you may see this on your plot, they will appear as many genes in the same location on the plot.
+Our website provides dynamically-generated circos plots. Circos plots are useful for visualising the genomic locations of ohnolog pairs within a genome and any patterns of such relationships. A whole genome duplication results in an exact copy of each chromosome. Therefore, we expect ohnolog pairs to be arranged in blocks, following these duplicated chromosomal regions. This type of syntenic relationship can be seen in circos plots.
 
-### <u> Creating a Circos Plot</u>
+### Circos settings
 
-As mentioned previously, circos plots are very useful for displaying all kinds of genomic data in a simplistic way that makes it easy to understand. In order to make a circos plot on our website you will need to select the species of choice in the search boxes called 'Query species' and click enter. Note that only one species can be selected for the circos plot at a time and that once a circos plot has been created, the gene table will be at the very bottom of the page and the plot will change based on selection. 
+In order to display a circos plot, you must first select a species whose genome you wish to plot. This can be done in two ways; The simplest way to pick a species is to select it using the dropdown menu. Alternatively, you can enter a gene or protein identifier into the provided textbox and press the 'search' button. This will match the identifier against our database and attempt to find the species whose genome it belongs to.
 
-This is the dropdown menu ('query species') used on this section of our website:
-<img src="/src/assets/circos_query.jpg">
+(insert img)
 
+Selecting the query species will generate a circos plot and display a table containing every gene from the selected species.
 
- 
-This is an example of a circos plot that has been generated when 'human' was used as the query species:
-<img src="/src/assets/circos_plot.jpg">
+### Reading the plot
 
+The plot shows all the chromosomes in the query species and the ohnolog pairs between different chromosomes. Chromosomes are displayed as orange lines arranged in a circle. Each chromosome has an associated label and selection area (light orange). Ohnologous relationships between genes are represented by blue arcs.
 
-This is an example of a table generated , located below the circos plot, using 'human' as the query species in the dropdown menu, note the download button (rhs):
-<img src="/src/assets/circos_table.jpg">
+You can interact with the plot by hovering the mouse cursor above any of the chromosome selection areas. This will highlight all of the ohnologous relationships for genes that are location on that chromosome.
 
+Any ohnologous relationships involving genes that are currently in your selection will be highlighted in green. You can add genes to your selection using the table below the plot. To read more about how gene selection works, read (this link).
 
+:::note
 
-Once you have made a circos plot you can hover over the chromosomes, on the outside of the circle, to highlight paralogy relationships. Other relationships will be dimmed until hovered over.
+Chromosome lengths are to scale. The start/end points of lines repreresenting ohnologous relationships represent the mid-point positions of genes.
 
-Clicking the 'cancel' button on the top right of the table will remove any selections you have made as well as your circos plot.
+:::
 
-### <u> Using the Table </u>
+##### Data table
 
-Once you have created you circos plot the table will list all the genes and proteins it has for the query species you selected previously. With this you can download any data that is relevant to you by selecting it from the table and using the blue 'Download' button found at the top right of the table.
+All genes belonging to the query species will be shown in a table below the circos plot. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
-If you are looking for further information relating to a particular gene, there are external links under the 'Source' heading on the table which leads to Ensembl. Similar to that, there are two internal links under the 'Protein' heading on the table. The blue icon to the left will take you to the tree section of the website and the blue icon to the right will take you to the synteny section of the website.  From there, the selection you made will persist across both pages and become selected in the tables. If you wish, you have the ability to download the data you are interested in.
+##### Data download
 
-Look for this button on the tables if you wish to download any data from our site:
+All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
-<img src="/src/assets/download.jpg">
+:::caution
 
-### <u> Ensembl and Internal Links </u>
+Unlike other tables, this download only plot data
 
-There are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
+:::
 
-In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
+##### Linking
 
-<img src="/src/assets/synteny_table2.jpg">
+You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 
-<ol>
-<li> Internal link to the phylogeny page</li>
-<li> Internal link to the synteny page</li>
-<li> Link to external database </li>
-</ol>
-
-
-
-
-
-
-
+You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).

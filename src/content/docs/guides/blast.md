@@ -3,59 +3,40 @@ title: BLAST
 description: Get started building your docs site with Starlight.
 ---
 
- ### <u>What is BLAST?</u>
+### BLAST search
 
-BLAST stands for Basic Local Asignment Search Tool and it is used for comparing genomic sequence. On our website the genes that are seen are ohnologs, genes that have arisen from a Whole Genome Duplication (WGD) event.
+Our website provides a way to search out database by protein sequence similarity using BLAST. This can be useful if you have a specific gene of interest and a) it is not currently in our database, or b) you also want to analyse its homologs.
 
-### <u> Using the Table </u>
+### BLAST input
 
-In this part of the website you have the ability to search for all sequences in our database that are similar to the sequence you chose. This is a great feature if you have a particular gene in mind and want to find all of its ohnologs and orthologs. To do this you will first need to type in a protein sequence and use the 'Search' button to update the table at the bottom of the page. If you wish to search for another gene sequence, or if you have made a mistake, click the grey 'Clear' button and type another sequence in.
+The BLAST input should be provided in the text area in FASTA format; The header line should contain the '>' character immediately followed by the protein identifier. The protein sequence should start on a new line following the header and may be split into multiple lines.
 
-<br>
+:::note
 
-This is the search box you use to paste and find a specific protein sequence on our database:
-<img src="/src/assets/blast.jpg">
+We only support a single fasta entry at any one time.
 
+:::
 
-Example of a protein sequence being searched:
-<img src="/src/assets/blast2.jpg"
- width="600" 
-height="200" />
+In order to begin the BLAST search, press the 'search' button below the text area. Alternatively, you can clear the text area by pressing the 'cancel' button. The search may take around 10 seconds - any results will be displayed in a table below the input fields.
 
-Example of a table being generated using the protein sequence as the input:
+(incl img)
 
-(not yet available)
+##### Data table
 
-<br>
+The gene table displayed on this page follows our standard layout, you can read more about it here (link).
 
-<u>The table's headings are listed as follows:</u>
+##### Data download
 
-| Gene | Protein | Species | Source | Scaffold | Segment | Labels |
+All gene data returned from the BLAST search can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
-The points below explain what each header refers to, 
+:::caution
 
-<ul>
-<li><b>Gene:</b> Name of the gene</li>
-<li><b>Protein:</b> Name of the protein</li>
-<li><b>Species:</b> Name of the species</li>
-<li><b>Source:</b> Where the data in the table came from. The possible sources are Ensembl, RefSeq or other</li>
-<li><b>Scaffold:</b> This is the joining of a genomic sequence's non-contiguous series</li>
-<li><b>Segment:</b> How many segments are there in the genome</li>
-<li><b>Labels:</b> Evidence-based. They will either be micro-synteny, macro-synteny or gene phylogeny</li>
-</ul>
-<br>
+Unlike other tables, this download only downloads the BLAST results
 
-The data on our website is freely available to the public and you are free to download it all or only pick and choose your favourite genes. You must first use the search box above the table to look for a gene sequence. You can then click the blue 'Download' box on the right side of the table.
+:::
 
-Look for this button on the tables if you wish to download any data from our site:
+##### Linking
 
-<img src="/src/assets/download.jpg">
+You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 
-
-
-
-
-
-
-
-
+You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).

@@ -48,52 +48,22 @@ This is an example of a menu seen when a gene is hovered over:
 width="300"
 height="200" />
 
-### <u> Using the Table </u> 
+##### Data table
 
-When a synteny plot has been generated a table will be too. The table allows you to select various genes/proteins from the table to add them to you synteny plot. Note that if the gene you selected earlier is part of multiple synteny blocks you can scroll to the bottom of the table and go through all the pages.
+All genes belonging to the synteny block will be shown in a table below the synteny plot. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
-The page(s) can be seen like this,
-<img src="/src/assets/synteny_pages.jpg">
+##### Data download
 
-<u>The table's headings are as follows:</u>
+All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
-<img src="/src/assets/synteny_table.jpg">
+:::caution
 
+Unlike other tables, this download only plot data
 
-The points below explain what each header refers to, 
+:::
 
-<ol>
-<li> Name of the gene
-<li> Name of the protein
-<li> Name of the species
-<li> Where the data in the table came from. The possible sources are Ensembl, RefSeq or other
-<li> Which chromosome a particular gene is located on 
-<li> How many segments are there in the genome 
-<li> Evidence-based. They will either be micro-synteny, macro-synteny or gene phylogeny
-<li> The button to use if you wish to download any data from the table
-</ol>
-<br>
+##### Linking
 
-Note that selections made from other parts of the website will persist and appear in both table and the plot which is useful if you have already made many specific selections. However, if this is something you wish to avoid, clicking the blue 'cancel' button, located on the top right hand side of the table, removes any previously made selections from across the website.
+You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 
-You can download any of the data found on the website. To do this go to the section of the website that has the data you would be looking for, genes/genomes/proteins, and use the selction boxes to refine your search. Once the table has been updated there will be a 'Download' button on the right hand side of the table. Note that if you have previosuly made any selections they will persist across both pages and become selected in the tables. If you wish to avoid this click the 'Cancel' button found on the top right of the table.
-
-Look for this button on the tables if you wish to download any data from our site:
-<img src="/src/assets/download.jpg">
-
-### <u> Ensembl and Internal Links </u>
-
-There are external links within our website that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of the tables, towards the bottom of the pages, lead to external databases such as Ensembl which is a genome database.
-
-In addition to this, there are two internal links in the table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website. The blue icon on the left will lead you to the phylogeny page and the blue icon on the right will lead you to the synteny page. If you have previosuly made any selections they will persist across both pages and become selected in the tables which means you do not have to manually make the same selections again. However, if this is something that you wish to avoid this click the 'Cancel' button found on the top right of the table.
-
-<img src="/src/assets/synteny_table2.jpg">
-
-<ol>
-<li>Internal link to the phylogeny page</li>
-<li> Internal link to the synteny page</li>
-<li>Link to external database </li>
-</ol>
-
-
-
+You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).
