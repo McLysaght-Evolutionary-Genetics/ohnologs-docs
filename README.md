@@ -1,6 +1,6 @@
 # Ohnologs docs
 
-This is the documentation for the [ohnologs database](). You can read it online [here](https:/aoifolution.gen.tcd.ie/ohnologs/docs).
+This is the documentation for the [ohnologs database](https://aoifolution.gen.tcd.ie/ohnologs). You can read it online [here](https://aoifolution.gen.tcd.ie/ohnologs/docs).
 
 ## About the database
 
