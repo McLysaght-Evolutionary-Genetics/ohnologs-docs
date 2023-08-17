@@ -1,9 +1,8 @@
 ---
-title: BLAST 
-description: Get started building your docs site with Starlight.
+title: BLAST search
 ---
 
-### BLAST search
+### Introduction
 
 Our website provides a way to search out database by protein sequence similarity using BLAST. This can be useful if you have a specific gene of interest and a) it is not currently in our database, or b) you also want to analyse its homologs.
 

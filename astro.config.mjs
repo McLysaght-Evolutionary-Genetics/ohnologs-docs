@@ -1,33 +1,61 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
-// https://astro.build/config
 export default defineConfig({
-  // base: "/ohnologs/docs",
-  //trailingSlash: "never",
   integrations: [
     starlight({
-     
-     
-      title:'Home',
-    
+      title: "Ohnologs docs",
       sidebar: [
-        {label: 'Navigation',
-        items: [
-          // Each item here is one entry in the navigation menu.
-          { label: 'Back to Database', link: 'https://aoifolution.gen.tcd.ie/ohnologs' },
-        ],
-      },
         {
-          label: 'Notes',
+          label: "Navigation",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Special Notes', link: '/' },
+            {
+              label: "Return to database",
+              link: "https://aoifolution.gen.tcd.ie/ohnologs",
+            },
           ],
         },
         {
-          label: 'Guides',
-          autogenerate: { directory: 'guides' },
+          label: "Guides",
+          items: [
+            {
+              label: "Introduction",
+              link: "/",
+            },
+            {
+              label: "Species browser",
+              link: "/guides/species",
+            },
+            {
+              label: "Gene browser",
+              link: "/guides/genes",
+            },
+            {
+              label: "Database search",
+              link: "/guides/selection",
+            },
+            {
+              label: "BLAST search",
+              link: "/guides/blast",
+            },
+            {
+              label: "Circos plots",
+              link: "/guides/circos",
+            },
+            {
+              label: "Dotplots",
+              link: "/guides/dotplot",
+            },
+            {
+              label: "Gene phylogenies",
+              link: "/guides/tree",
+            },
+            {
+              label: "Synteny plots",
+              link: "/guides/synteny",
+            },
+          ],
+          autogenerate: { directory: "guides" },
         },
       ],
     }),

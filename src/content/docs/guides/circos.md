@@ -1,9 +1,8 @@
 ---
-title: Circos 
-description: Get started building your docs site with Starlight.
+title: Circos plots
 ---
 
-### Circos plots
+### Introduction
 
 Our website provides dynamically-generated circos plots. Circos plots are useful for visualising the genomic locations of ohnolog pairs within a genome and any patterns of such relationships. A whole genome duplication results in an exact copy of each chromosome. Therefore, we expect ohnolog pairs to be arranged in blocks, following these duplicated chromosomal regions. This type of syntenic relationship can be seen in circos plots.
 

@@ -1,9 +1,8 @@
 ---
-title: Species 
-description: Get started building your docs site with Starlight.
+title: Species browser
 ---
 
-### Species viewer
+### Introduction
 
 Our website provides an interface for easily viewing and filtering all the speciess in our database.
 

@@ -1,9 +1,8 @@
 ---
-title: Gene 
-description: Get started building your docs site with Starlight.
+title: Gene browser
 ---
 
-### Gene viewer
+### Introduction
 
 Our website provides an interface for easily viewing and filtering all the genes in our database.
 

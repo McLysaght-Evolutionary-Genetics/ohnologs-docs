@@ -1,9 +1,8 @@
 ---
-title: Selection 
-description: Get started building your docs site with Starlight.
+title: Database search
 ---
 
-### Database search
+### Introduction
 
 Our website provides a way to search our database using a pre-existing list of gene and protein identifiers. This can be useful if you already know which genes you want to analyse.
 

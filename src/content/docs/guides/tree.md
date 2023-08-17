@@ -1,9 +1,8 @@
 ---
-title: Tree
-description: Get started building your docs site with Starlight.
+title: Gene phylogenies
 ---
 
-### Gene trees
+### Introduction
 
 Our website provides dynamically-generated gene trees. Gene trees are useful for visualising the evolutionary history of a gene and all of its homologs. Given that whole genome duplications create additional copies of every gene in the genome, we expect to see bifurcations in any given WGD tree where genes on either side of this node are ohnologous.
 

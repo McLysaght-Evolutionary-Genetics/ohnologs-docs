@@ -1,9 +1,8 @@
 ---
-title: Dotplot
-description: Get started building your docs site with Starlight.
+title: Dotplots
 ---
 
-### Dotplots
+### Introduction
 
 Our website provides dynamically-generated dotplots. Dotplots are useful for visualising the ohnologous relationships between chromosomes from different species. Whole genome duplicaiton events create a copies of every chromosome in the genome. As a result, when we compare all the chromosomes between two species that share a WGD event, we will see a 2:2 correspondance between chromosomes (or chromosomal segments after multiple rearrangements have occured).
 
