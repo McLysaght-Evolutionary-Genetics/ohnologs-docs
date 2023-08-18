@@ -18,6 +18,8 @@ We only support a single FASTA entry at any one time.
 
 In order to begin the BLAST search, press the search button below the text area. Alternatively, you can clear the text area by pressing the cancel button. The search may take around 10 seconds - any results will be displayed in a table below the input fields.
 
+![blast input](../../../assets/blast-input.png)
+
 ### Data table
 
 The gene table displayed on this page follows our standard layout, you can read more about it [here](/#tables).
@@ -34,6 +36,6 @@ Only the genes returned by the BLAST search can be downloaded from this page.
 
 ### Linking
 
-You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+You can view more information about a gene by clicking on any of the entries listed under the source table column.
 
 You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).

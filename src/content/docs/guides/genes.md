@@ -27,6 +27,8 @@ The strict toggle under labels defines whether this list should be treated as a 
 - **Subset:** A gene entry must contain at least 1 label from the list to be included.
 - **Superset:** A gene entry must contain all the labels from the list to be included.
 
+![available gene filters](../../../assets/genes-filters.png)
+
 ### Data table
 
 The gene table displayed on this page follows our standard layout, you can read more about it [here](/#tables).
@@ -37,6 +39,6 @@ All gene data that passes the selected filters can be downloaded by pressing the
 
 ### Linking
 
-You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+You can view more information about a gene by clicking on any of the entries listed under the source table column.
 
 You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).

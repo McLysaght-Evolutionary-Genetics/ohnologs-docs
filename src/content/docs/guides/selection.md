@@ -10,9 +10,9 @@ Our website provides a way to search our database using a pre-existing list of g
 
 Gene lists can be provided in multiple formats, we support the following:
 
-- FASTA files
-- TSV/CSV files
-- TXT files
+- FASTA files.
+- TSV/CSV files.
+- TXT files.
 
 :::note
 
@@ -21,6 +21,8 @@ Any text that is not a gene or protein identifier will be ignored. Generally, mo
 :::
 
 In order to search our database, you can either upload the desired gene list, or paste it into the provided text area. Uploading files can be done in two ways: You can drag the desired file onto the upload area, or alternatively, you can click on the upload area which will open your system's native file picker.
+
+![search input](../../../assets/search-input.png)
 
 Once the gene list has either been uploaded or pasted, the search will begin automatically and any results will be displayed in a table below the input fields.
 
@@ -40,6 +42,6 @@ Only the genes returned by the database search can be downloaded from this page.
 
 ### Linking
 
-You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+You can view more information about a gene by clicking on any of the entries listed under the source table column.
 
 You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).

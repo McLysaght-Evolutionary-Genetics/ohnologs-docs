@@ -6,12 +6,12 @@ title: Ohnologs database
 
 There is a general lack of easily accessible, high-quality ohnolog databases - while several datasets exist, they are either badly documented, or lack (in our opinion) crucial data filtering and visualisation features. We aim to offer a service that attempts to address all the shortcomings of current alternatives:
 
-- **Multiple sources of evidence** (macro-synteny, micro-synteny, and gene trees) are used to classify genes are ohnologs
-- We **distinguish between 1R and 2R** duplicate pairs
-- We offer **multiple ways to filter and select** genes from our dataset
-- Users can **browse our data** before downloading using our online interface
-- We offer multiple ways to **visualise and analyse** our dataset
-- Our pipeline is **well documented, freely available, and reproducible**
+- **Multiple sources of evidence** (macro-synteny, micro-synteny, and gene trees) are used to classify genes are ohnologs.
+- We **distinguish between 1R and 2R** duplicate pairs.
+- We offer **multiple ways to filter and select** genes from our dataset.
+- Users can **browse our data** before downloading using our online interface.
+- We offer multiple ways to **visualise and analyse** our dataset.
+- Our pipeline is **well documented, freely available, and reproducible**.
 
 ### Features
 
@@ -54,7 +54,9 @@ You can visit the [selection](https://aoifolution.gen.tcd.ie/ohnologs/select) pa
 
 ##### I like pretty graphs
 
-You're in luck! You can visit any of the [circos](https://aoifolution.gen.tcd.ie/ohnologs/circos), [dotplot](https://aoifolution.gen.tcd.ie/ohnologs/dotplot), [tree](https://aoifolution.gen.tcd.ie/ohnologs/tree), or [synteny](https://aoifolution.gen.tcd.ie/ohnologs/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
+You're in luck! You can visit any of the [circos](https://aoifolution.gen.tcd.ie/ohnologs/circos), [dotplot](https://aoifolution.gen.tcd.ie/ohnologs/dotplot), [tree](https://aoifolution.gen.tcd.ie/ohnologs/tree), or [synteny](https://aoCaution
+
+Only the genes returned by the database search can be downloaded from this page.ifolution.gen.tcd.ie/ohnologs/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
 
 ##### I'm confused
 
@@ -68,19 +70,21 @@ The genes in our dataset are displayed using a combination of tables and figures
 
 Most of the pages on our website contain data tables which are located towards the bottom of each page. These tables display all the genes in our database that match your selected filters, or in the case of figures, the table displays all of the genes that appear in a figure.
 
+![table demo](../../assets/table-demo.png)
+
 Most tables contain the following information for each gene:
 
-- **Gene:** The gene identifier
-- **Protein:** The protein identifier
-- **Species:** The species whose genome this gene belongs to
-- **Source:** The database from which the genome was sourced
-- **Chromosome:** The chromosome that the gene belongs to
-- **Segment:** The macro-synteny segment that the gene belongs to
-- **Labels:** The evidence that suggests that this gene is an ohnolog
+- **Gene:** The gene identifier.
+- **Protein:** The protein identifier.
+- **Species:** The species whose genome this gene belongs to.
+- **Source:** The database from which the genome was sourced.
+- **Chromosome:** The chromosome that the gene belongs to.
+- **Segment:** The macro-synteny segment that the gene belongs to.
+- **Labels:** The evidence that suggests that this gene is an ohnolog.
 
 ##### Data download
 
-The data on the website is completely accessible to the public, and can be easily downloaded. To download all the data displayed in a table, you can click the 'download' link located above the table entries.
+The data on the website is completely accessible to the public, and can be easily downloaded. To download all the data displayed in a table, you can click the download link located above the table entries.
 
 Downloaded gene data will be provided in the TSV file format with the following columns:
 
@@ -98,9 +102,11 @@ If any of the table entries are selected, pressing the download button will only
 
 ##### Linking
 
-The tables on our website contain links to external databases that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the 'Source' heading of tables, which are located towards the bottom of a page. These lead to gene extried in external databases such as Ensembl.
+The tables on our website contain links to external databases that can help you to find more in-depth information regarding the genes that you are interested in. These links can be found under the source heading of tables, which are located towards the bottom of a page. These lead to gene extried in external databases such as Ensembl.
 
-In addition to this, there are two internal links in each table under the 'Protein' heading. These links will lead you to the 'Phylogeny' and 'Synteny' pages within our website - a quick way to get more information about a gene that might interest you. When jumping to these pages, any selection you may have made on the current page will persist to the target page.
+In addition to this, there are two internal links in each table under the protein heading. These links will lead you to the phylogeny and synteny pages within our website - a quick way to get more information about a gene that might interest you. When jumping to these pages, any selection you may have made on the current page will persist to the target page.
+
+![link demo](../../assets/link-demo.png)
 
 ##### Filtering and selection
 
@@ -112,7 +118,11 @@ If any filters are applied, the download button above a table will only download
 
 :::
 
-Our website allows users to select data displayed in tables - it is a form of manual filtering and curration. However, unlike filtering, your selection is global - it persists across all pages - and any genes currently in your selection are highlighted in all the figures generated by our website. Genes can be added to or removed from the selection using the toggles on the left side of a table. Selection is a useful tool if:
+Our website allows users to select data displayed in tables - it is a form of manual filtering and curration. However, unlike filtering, your selection is global - it persists across all pages - and any genes currently in your selection are highlighted in all the figures generated by our website. Genes can be added to or removed from the selection using the toggles on the left side of a table.
+
+![selection demo](../../assets/selection-demo.png)
+
+You may find selection useful if:
 
 - You are interested in a specific subset of genes.
 - You have applied some filters, and want the filtered genes to be highlighted in figures.
@@ -140,3 +150,4 @@ Below are some key terms that are useful to know when navigating the website:
 - **Ohnologs:** Duplicates arising as a result of a whole genome duplication event.
 - **Micro-synteny:** Conservation of gene content and order.
 - **Macro-synteny:** Conservation of gene content.
+- **TODO:** document more shit!!!

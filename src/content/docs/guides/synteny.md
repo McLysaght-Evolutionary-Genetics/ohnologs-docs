@@ -4,13 +4,13 @@ title: Synteny plots
 
 ### Introduction
 
-Our website provides dynamically generated synteny plots. Synteny plots are useful for visualising the gene content and order conservation following the duplication of entire chromosomes or chromosomal segments. The chromosomes resulting from a whole genome duplication event will initially have the same gene content and order, however, given evolutionary time, chromosomal segments will be rearranged and these parrents will become scrambled. Despite this, we can identify syntenic segments dating back to the 1R and 2R WGD events in present genomes - these can be seen using out synteny plots.
+Our website provides dynamically generated synteny plots. Synteny plots are useful for visualising the gene content and order conservation following the duplication of entire chromosomes or chromosomal segments. The chromosomes resulting from a whole genome duplication event will initially have the same gene content and order, however, given evolutionary time, chromosomal segments will be rearranged and these patterns will become scrambled. Despite this, we can identify syntenic segments dating back to the 1R and 2R WGD events in present genomes - these can be seen using out synteny plots.
 
 ### Synteny settings
 
-In order to display a synteny plot, you must first select the synteny block that you wish to display. This can be done by entering a gene or protein identifier into the provided textbox and pressing the 'search' button. This will match the identifier against our database and attempt to find all the synteny blocks that it belongs to.
+In order to display a synteny plot, you must first select the synteny block that you wish to display. This can be done by entering a gene or protein identifier into the provided textbox and pressing the search button. This will match the identifier against our database and attempt to find all the synteny blocks that it appears in.
 
-(insert img)
+![synteny settings](../../../assets/synteny-settings.png)
 
 If any matching synteny blocks are found they will be displayed below. If multiple blocks are found, a pagination menu will be shown below the plot, allowing the user to switch between synteny blocks.
 
@@ -26,30 +26,30 @@ Chromosome and gene lengths are to scale.
 
 Hovering the mouse cursor over any gene will display additional information about it, including a link to the genome database from which it was sourced.
 
-Any genes in the current selection (as well as their homologous relationships) will be highlighted. Genes can be added to the selection using the table below (see here). This selection can also be cleared by pressing the 'cancel' button on top of the table (also see here). Alternatively, clicking on a gene on the plot will also add it to the current selection.
+Any genes in the current selection (as well as their homologous relationships) will be highlighted. Genes can be added to the selection using the table below. This selection can also be cleared by pressing the cancel button on top of the table - you can read more about selection [here](/#filtering-and-selection). Alternatively, clicking on any gene on the plot will also add it to the current selection.
 
-Multiple selection mode can be enabled by hitting the 's' key. This will change the mouse cursor to a crosshair. In this mode, you can select multiple genes at once by clicking and holding the left mouse button anywhere on the plot and moving it to draw a selection area. Releasing the mouse button will select any genes that fall within the selection area and exit multiple selection mode. Alternatively, multiple selection mode can be cancelled at any time by pressing the 'esc' key.
+![synteny demo](../../../assets/synteny-demo.png)
 
-(image?)
+Multiple selection mode can be enabled by pressing the 's' key. This will change the mouse cursor to a crosshair. In this mode, you can select multiple genes at once by clicking and holding the left mouse button anywhere on the plot and moving it to draw a selection area. Releasing the mouse button will select any genes that fall within the selection area and exit multiple selection mode. Alternatively, multiple selection mode can be cancelled at any time by pressing the 'esc' key.
 
-The plot can be moved by holding the left mouse button and moving the mouse. The plot can also be resized using the scrollwheel.
+The plot can be panned by holding the left mouse button and moving the mouse. The plot can also be resized using the scrollwheel.
 
 ### Data table
 
-All genes belonging to the synteny block will be shown in a table below the synteny plot. The table displayed on this page follows our standard layout, you can read more about it here (link).
+All genes belonging to the synteny block will be shown in a table below the synteny plot. The table displayed on this page follows our standard layout, you can read more about it [here](/#tables).
 
 ### Data download
 
-All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
+All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries [here](/#filtering-and-selection).
 
 :::caution
 
-Unlike other tables, this download only plot data
+Only genes displayed in the synteny plot can be downloaded from this page.
 
 :::
 
 ### Linking
 
-You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
+You can view more information about a gene by clicking on any of the entries listed under the source table column.
 
-You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).
+You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).
