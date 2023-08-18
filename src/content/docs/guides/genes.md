@@ -6,39 +6,37 @@ title: Gene browser
 
 Our website provides an interface for easily viewing and filtering all the genes in our database.
 
-(link)
+### Filtering
 
-##### Filtering
+Our filtering feature allows users to narrow down the dataset to their liking without the need to download it first. Gene data can be filtered by multiple attributes:
 
-Our filtering feature allows users to narrow down the dataset to their liking without needing to download it first. Gene data can be filtered by multiple attributes:
+- **Species:** The species that the gene belongs to.
+- **Chromosome:** The chromosome that the gene belongs to.
+- **Segment:** The macro-syntenic segment that the gene belongs to.
+- **Source:** The genome database from which the information was sourced.
+- **Labels:** The evidence that suggests a gene is an ohnolog.
 
-- species: the species whose genome a gene is part of
-- chromosome: the chromosome a gene is part of
-- segment: the macro-synteny segment the gene is part of (see link)
+:::note
 
-NOTE: a species must be selected for chromosome > segment selection to become available
+You must first select a species, before you can filter by chromosome. Similarly, you must first select a chromosome before you can filter by segment.
 
-- source: the genome database where information for a gene was sourced
+:::
 
-- labels: the evidence that suggests a gene is an ohnolog
+The strict toggle under labels defines whether this list should be treated as a subset (disabled) or superset (enabled):
 
-The strict toggle defined whether the labels list should be treated as a subset (off) or superset (on):
+- **Subset:** A gene entry must contain at least 1 label from the list to be included.
+- **Superset:** A gene entry must contain all the labels from the list to be included.
 
-- subset: a gene entry must match at least 1 label from the list
-- superset: a gene entry must match all labels from the list
+### Data table
 
-(include image?)
+The gene table displayed on this page follows our standard layout, you can read more about it [here](/#tables).
 
-##### Data table
+### Data download
 
-The gene table displayed on this page follows our standard layout, you can read more about it here (link).
+All gene data that passes the selected filters can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries [here](/#filtering-and-selection).
 
-##### Data download
-
-All gene data can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
-
-##### Linking
+### Linking
 
 You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 
-You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).
+You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).

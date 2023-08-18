@@ -44,11 +44,11 @@ This feature will create a movable and re-sizable box on the plot. Any genes in 
 
 Any homologous relationships involving genes that are currently in your selection will be highlighted in orange. You can add genes to your selection using the table below the plot. To read more about how gene selection works, read (this link).
 
-##### Data table
+### Data table
 
 All genes belonging to the query and subject species will be shown in a table below the dotplot. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
-##### Data download
+### Data download
 
 All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
@@ -58,7 +58,7 @@ Unlike other tables, this download only plot data
 
 :::
 
-##### Linking
+### Linking
 
 You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 

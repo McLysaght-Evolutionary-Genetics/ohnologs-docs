@@ -28,11 +28,11 @@ Chromosome lengths are to scale. The start/end points of lines repreresenting oh
 
 :::
 
-##### Data table
+### Data table
 
 All genes belonging to the query species will be shown in a table below the circos plot. The table displayed on this page follows our standard layout, you can read more about it here (link).
 
-##### Data download
+### Data download
 
 All gene data used for generating the current plot can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
 
@@ -42,7 +42,7 @@ Unlike other tables, this download only plot data
 
 :::
 
-##### Linking
+### Linking
 
 You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 

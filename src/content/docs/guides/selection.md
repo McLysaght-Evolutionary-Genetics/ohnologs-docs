@@ -16,7 +16,7 @@ Gene lists can be provided in multiple formats, we support the following:
 
 :::note
 
-Any non identifier content will be ignored. As long as theres a clear structure and your sep is either a , or \t, it should generally work
+Any text that is not a gene or protein identifier will be ignored. Generally, most gene list formats *should* work as long as they use commas and tabs to delineate identifiers.
 
 :::
 
@@ -24,24 +24,22 @@ In order to search our database, you can either upload the desired gene list, or
 
 Once the gene list has either been uploaded or pasted, the search will begin automatically and any results will be displayed in a table below the input fields.
 
-(include image)
+### Data table
 
-##### Data table
+The gene table displayed on this page follows our standard layout, you can read more about it [here](/#tables).
 
-The gene table displayed on this page follows our standard layout, you can read more about it here (link).
+### Data download
 
-##### Data download
-
-All gene data returned from the database search can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries here (link).
+All gene data returned from the database search can be downloaded by pressing the download button above the table. If you want to download a subset of the data, you can read more about selecting table entries [here](/#filtering-and-selection).
 
 :::caution
 
-Unlike other tables, this download only downloads the search
+Only the genes returned by the database search can be downloaded from this page.
 
 :::
 
-##### Linking
+### Linking
 
 You can view more information about a gene by clicking on any of the entries listed under the 'source' table column.
 
-You can also jump to the gene tree or synteny data visualisations containing a particular gene entry by clicking the appropriate buttons in the protein column. Read more about data linking (here).
+You can also jump to the gene tree or synteny data visualisations containing any particular gene entry by clicking any of the links in the protein column. You can read more about data linking [here](/#linking).
