@@ -54,9 +54,7 @@ You can visit the [selection](https://aoifolution.gen.tcd.ie/ohnologs/select) pa
 
 ##### I like pretty graphs
 
-You're in luck! You can visit any of the [circos](https://aoifolution.gen.tcd.ie/ohnologs/circos), [dotplot](https://aoifolution.gen.tcd.ie/ohnologs/dotplot), [tree](https://aoifolution.gen.tcd.ie/ohnologs/tree), or [synteny](https://aoCaution
-
-Only the genes returned by the database search can be downloaded from this page.ifolution.gen.tcd.ie/ohnologs/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
+You're in luck! You can visit any of the [circos](https://aoifolution.gen.tcd.ie/ohnologs/circos), [dotplot](https://aoifolution.gen.tcd.ie/ohnologs/dotplot), [tree](https://aoifolution.gen.tcd.ie/ohnologs/tree), or [synteny](https://aoifolution.gen.tcd.ie/ohnologs/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
 
 ##### I'm confused
 
