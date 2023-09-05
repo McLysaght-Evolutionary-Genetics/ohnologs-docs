@@ -12,7 +12,7 @@ The BLAST input should be provided in the provided text area in FASTA format; Th
 
 :::note
 
-We only support a single FASTA entry at any one time.
+The BLASTP search uses DIAMOND with the *-b4* and *-c1* parameters. We only support a single FASTA entry at any one time.
 
 :::
 

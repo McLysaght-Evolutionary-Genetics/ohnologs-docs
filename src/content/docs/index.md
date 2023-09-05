@@ -84,13 +84,159 @@ Most tables contain the following information for each gene:
 
 The data on the website is completely accessible to the public, and can be easily downloaded. To download all the data displayed in a table, you can click the download link located above the table entries.
 
-Downloaded gene data will be provided in the TSV file format with the following columns:
+Any data data downloaded from the website will be provided in a zip archive containing the following files:
 
-- **TODO:** Document this!!!
+- **sources.tsv** - A list of genomic databases from which our data was sourced.
+- **species.tsv** - A list of species.
+- **scaffolds.tsv** - A list of chromosomes/scaffolds.
+- **segments.tsv** - A list of chromosomal segments.
+- **families.tsv** - A list of gene families.
+- **genes.tsv** - A list of genes.
+- **labels.tsv** - A list of evidence-based ohnology labels used in our dataset.
+- **gene_labels.tsv** - A list of gene-label associations.
+- **gene_ohnology.tsv** - A list of ohnolog pairs and their relationship (1R vs 2R).
+- **trees.tsv** - A list of gene trees.
+- **tree_species.tsv** - A list of species appearing in each gene tree.
+- **tree_genes.tsv** - A list of genes appearing in each gene tree.
+- **synteny_blocks.tsv** - A list of micro-syntenic blocks.
+- **synteny_tracks.tsv** - A list of continuous chromosomal segments that are part of micro-syntenic blocks.
+- **synteny_groups.tsv** - A list of homologous genes present in micro-syntenic blocks.
+- **synteny_genes.tsv** - A list of genes present in micro-syntenic blocks
 
-Downloaded species data will be provided in the TSV file format with the following columns:
+###### Sources
 
-- **TODO:** Document this!!!
+The sources file contains the following columns:
+
+- **SourceId** - Genomic database unique identifier.
+- **Name** - Genomic database name.
+
+###### Species
+
+The species file contains the following columns:
+
+- **Source Id** - Genomic database unique identifier.
+- **Species Id** - Species unique identifier.
+- **Name** - Species name.
+- **Version** - Genome version.
+- **Assembly** - Genome assembly type (chromosome or scaffold).
+- **Outgroup** - Whether this species was used as an outgroup in the gene tree analysis.
+- **Reconstruction** - Whether this genome is an ancestral reconstruction.
+
+###### Scaffolds
+
+The scaffolds file contains the following columns:
+
+- **Species Id** - Species unique identifier.
+- **Scaffold Id** - Chromosome/scaffold unique identifier.
+- **Start** - Chromosome/scaffold start coordinate.
+- **End** - Chromosome/scaffold end coordinate.
+
+###### Segments
+
+The segments file contains the following columns:
+
+- **Species Id** - Species unique identifier.
+- **Scaffold Id** - Chromosome/scaffold unique identifier.
+- **Segment Id** - Segment unique identifier.
+- **Start** - Segment start coordinate.
+- **End** - Segment end coordinate.
+
+###### Families
+
+The families file contains the following columns:
+
+- **Family Id** - Family unique identifier.
+
+###### Genes
+
+The genes file contains the following columns:
+
+- **Species Id** - Species unique identifier.
+- **Scaffold Id** *(optional)* - Chromosome/scaffold unique identifier.
+- **Segment Id** *(optional)* - Segment unique identifier.
+- **Family Id** *(optional)* - Family unique identifier.
+- **Gene Id** - Gene unique identifier.
+- **Protein Id** - Protein unique identifier.
+- **Start** - Gene start coordinate.
+- **End** - Gene end coordinate.
+- **PGC** - The proto-gnathostome chromosome that the gene has been assigned to.
+- **PVC** - The proto-vertebrate chromosomes from which the gene's PGC is derived.
+
+###### Labels
+
+The labels file contains the following columns:
+
+- **Label Id** - Label unique identifier.
+- **Name** - Label name.
+
+###### Gene labels
+
+The gene labels file contains the following columns:
+
+- **Protein Id** - Protein unique identifier.
+- **Label Id** - Label unique identifier.
+
+###### Gene ohnology
+
+The gene ohnology file contains the following columns:
+
+- **Query Id** - Protein unique identifier of the query gene.
+- **Subject Id** - Protein unique identifier of the subject gene.
+- **Relation** - Whether the pair is related by 1R (r1) or 2R (r2).
+
+###### Trees
+
+The trees file contains the following columns:
+
+- **Tree Id** - Tree unique identifier.
+- **Newick** - Newick string of the tree.
+
+###### Tree species
+
+The tree species file contains the following columns:
+
+- **Tree Id** - Tree unique identifier.
+- **Species Id** - Species unique identifier.
+
+###### Tree genes
+
+The tree genes file contains the following columns:
+
+- **Tree Id** - Tree unique identifier.
+- **Protein Id** - Protein unique identifier.
+
+###### Synteny blocks
+
+The synteny blocks file contains the following columns:
+
+- **Block Id** - Block unique identifier.
+
+###### Synteny tracks
+
+The synteny tracks file contains the following columns:
+
+- **Block Id** - Block unique identifier.
+- **Species Id** - Species unique identifier.
+- **Scaffold Id** - Chromosome/scaffold unique identifier.
+- **Start** - Start coordinate of the micro-synteny track.
+- **End** - Start coordinate of the micro-synteny track.
+
+###### Synteny groups
+
+The synteny groups file contains the following columns:
+
+- **Block Id** - Block unique identifier.
+- **Group Id** - Group unique identifier.
+
+###### Synteny genes
+
+The synteny genes file contains the following columns:
+
+- **Block Id** - Block unique identifier.
+- **Species Id** - Species unique identifier.
+- **Scaffold Id** - Chromosome/scaffold unique identifier.
+- **Group Id** - Group unique identifier.
+- **Protein Id** - Protein unique identifier.
 
 :::note
 
@@ -148,4 +294,3 @@ Below are some key terms that are useful to know when navigating the website:
 - **Ohnologs:** Duplicates arising as a result of a whole genome duplication event.
 - **Micro-synteny:** Conservation of gene content and order.
 - **Macro-synteny:** Conservation of gene content.
-- **TODO:** document more shit!!!
