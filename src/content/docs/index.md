@@ -19,7 +19,7 @@ The features available on our website are summarised below. Each feature is docu
 
 ###### Download our data
 
-If you want to download our entire dataset, [click here](). Alternatively, you can choose what data to download by browsing to one of the following pages:
+If you want to download our entire dataset, [click here](https://data.ohnologs.com/ohnologs.zip). Alternatively, you can choose what data to download by browsing to one of the following pages:
 
 - Species page - [docs](/guides/species) | [website](https://ohnologs.com/species)
 - Gene page - [docs](/guides/genes) | [website](https://ohnologs.com/gene)
