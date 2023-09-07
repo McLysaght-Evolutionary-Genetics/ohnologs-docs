@@ -11,7 +11,7 @@ export default defineConfig({
           items: [
             {
               label: "Return to database",
-              link: "https://aoifolution.gen.tcd.ie/ohnologs",
+              link: "https://ohnologs.com",
             },
           ],
         },

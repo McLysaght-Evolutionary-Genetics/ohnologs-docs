@@ -21,24 +21,24 @@ The features available on our website are summarised below. Each feature is docu
 
 If you want to download our entire dataset, [click here](). Alternatively, you can choose what data to download by browsing to one of the following pages:
 
-- Species page - [docs](/guides/species) | [website](https://aoifolution.gen.tcd.ie/ohnologs/species)
-- Gene page - [docs](/guides/genes) | [website](https://aoifolution.gen.tcd.ie/ohnologs/gene)
+- Species page - [docs](/guides/species) | [website](https://ohnologs.com/species)
+- Gene page - [docs](/guides/genes) | [website](https://ohnologs.com/gene)
 
 ###### Search our data
 
 If you already have some genes of interest and want to search our database with those in mind, you can do so by browsing to one of the following pages:
 
-- Selection page - [docs](/guides/select) | [website](https://aoifolution.gen.tcd.ie/ohnologs/select)
-- BLAST page - [docs](/guides/blast) | [website](https://aoifolution.gen.tcd.ie/ohnologs/blast)
+- Selection page - [docs](/guides/select) | [website](https://ohnologs.com/select)
+- BLAST page - [docs](/guides/blast) | [website](https://ohnologs.com/blast)
 
 ###### Visualise our data
 
 If you want to visualise the data that you have selected, be that single genes or entire genomes, you can generate figures in real time on the following pages:
 
-- Circos page - [docs](/guides/circos) | [website](https://aoifolution.gen.tcd.ie/ohnologs/circos)
-- Dotplot page - [docs](/guides/dotplot) | [website](https://aoifolution.gen.tcd.ie/ohnologs/dotplot)
-- Phylogeny page - [docs](/guides/tree) | [website](https://aoifolution.gen.tcd.ie/ohnologs/tree)
-- Microsynteny page - [docs](/guides/synteny) | [website](https://aoifolution.gen.tcd.ie/ohnologs/synteny)
+- Circos page - [docs](/guides/circos) | [website](https://ohnologs.com/circos)
+- Dotplot page - [docs](/guides/dotplot) | [website](https://ohnologs.com/dotplot)
+- Phylogeny page - [docs](/guides/tree) | [website](https://ohnologs.com/tree)
+- Microsynteny page - [docs](/guides/synteny) | [website](https://ohnologs.com/synteny)
 
 ### Use cases
 
@@ -46,15 +46,15 @@ The tools provided on our website can be useful for data-exploration and simple 
 
 ##### I have a favourite gene
 
-You can visit the [BLAST](https://aoifolution.gen.tcd.ie/ohnologs/blast) page to find homologs of your favourite gene that are present in our database. The resulting genes can either be downloaded or selected. Any genes that are currently in your selection will be highlighted across all plots on our website.
+You can visit the [BLAST](https://ohnologs.com/blast) page to find homologs of your favourite gene that are present in our database. The resulting genes can either be downloaded or selected. Any genes that are currently in your selection will be highlighted across all plots on our website.
 
 ##### I'm interested in a specific gene family
 
-You can visit the [selection](https://aoifolution.gen.tcd.ie/ohnologs/select) page and provide a FASTA or TSV file to find any matching genes that are present in our database. The results can either be downloaded or selected. Any genes that are currently in your selection will be highlighted across all plots on our website.
+You can visit the [selection](https://ohnologs.com/select) page and provide a FASTA or TSV file to find any matching genes that are present in our database. The results can either be downloaded or selected. Any genes that are currently in your selection will be highlighted across all plots on our website.
 
 ##### I like pretty graphs
 
-You're in luck! You can visit any of the [circos](https://aoifolution.gen.tcd.ie/ohnologs/circos), [dotplot](https://aoifolution.gen.tcd.ie/ohnologs/dotplot), [tree](https://aoifolution.gen.tcd.ie/ohnologs/tree), or [synteny](https://aoifolution.gen.tcd.ie/ohnologs/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
+You're in luck! You can visit any of the [circos](https://ohnologs.com/circos), [dotplot](https://ohnologs.com/dotplot), [tree](https://ohnologs.com/tree), or [synteny](https://ohnologs.com/synteny) pages and (hopefully) enjoy what you see ;). If you're still not satisfied, let us know what we can do to satiate your immeasurable hunger for pretty graphs.
 
 ##### I'm confused
 
